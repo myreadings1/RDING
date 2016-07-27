@@ -12,7 +12,6 @@ Wireless Comm., mobile computing, MIMO, etc
 - https://users.cs.duke.edu/~ssen/research.html
 - http://people.ee.duke.edu/~romit/papers.html
 - https://cse.sc.edu/~srihari/
-- http://www.ccs-labs.org/software/
 - http://www.ccs-labs.org/software/gr-ieee802-11/
 - http://staff.washington.edu/kellogg/files/passive_wifi.pdf
 - http://iotwifi.cs.washington.edu/files/wifiBackscatter.pdf
@@ -27,4 +26,3 @@ Wireless Comm., mobile computing, MIMO, etc
 - http://web.stanford.edu/class/ee360/resources.html
 - http://www.cs.princeton.edu/~mshahbaz/
 - https://www.rcs.ei.tum.de/persons/kindt/
-

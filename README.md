@@ -7,7 +7,6 @@ Wireless Comm., mobile computing, MIMO, etc
 - http://mesl.ucsd.edu/site/publications.html
 - http://www.asp.eurasipjournals.com/content/2011/1/135
 - http://people.csail.mit.edu/szym/rawofdm/README.html
-- https://www.google.com/?gws_rd=ssl#q=google+project+soli
 - https://users.cs.duke.edu/~ssen/research.html
 - http://people.ee.duke.edu/~romit/papers.html
 - https://cse.sc.edu/~srihari/
@@ -32,3 +31,6 @@ Wireless Comm., mobile computing, MIMO, etc
 # S
 S
 - http://www.sistani.org/arabic/book/23/1924/
+
+# Goog progects
+- https://www.google.com/?gws_rd=ssl#q=google+project+soli

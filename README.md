@@ -1,5 +1,6 @@
 # RDING
 Wireless Comm., mobile computing, MIMO, etc
+- http://web.eecs.umich.edu/~kgshin/
 - http://www.cs.ucsb.edu/~laradeek/projects.html
 - http://www-users.cs.umn.edu/~ksong/index.html
 - http://web.eecs.umich.edu/~zmao/pubs.html

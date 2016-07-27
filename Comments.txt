@@ -1,0 +1,64 @@
+# the situation is like this, let me explain a little bit
+Ok
+
+for vehicular network, and similar in all other areas of research, you can think that what we are exploring is a multi-dimensional space
+or you can call it design space
+you can think that the dimensions of such space are performance metrics, for communication, these dimensions can be data rate, range, reliability, deployment cost, etc.
+first of fall, in the design space of vehicular connectivity, 802.11p is only one of those residents in that space
+as i said before, you need to read a lot until you know all or at least a most part of the design space before you propose ideas
+second, you need the capability to judge whether a specific point in the design space worth exploration or not
+I see
+
+third, you need to judge the research merit, like 'if a point in that design space is blank and worth exploration, then is there any interesting research problems in that area? or existing techniques are sufficient to be applied to explore that area?"
+finally as you said, you need to dig deeper into the technical aspect when reading papers
+Right
+
+i didn't read freebee in details. but i know that the modulation they used is called pulse shifting or sth similar
+They use pkt shift
+Same idea
+Pkt = puls
+Jun isn't on Hangouts right now. He'll see your messages later
+
+i won't comment further on this idea, you can judge by yourself
+
+I am not trying to use pkt shift here
+because if we can get a pkt then get info
+but I am thinking in the following way
+we need a reliable link for vehicle and we have FM modulation is available. But FM offer low capacity ch. To enhance the capacity we may use plus shift here 
+but we need high accuracy radios to get good capacity
+
+for writing, my feel is that there're several levels. The lowest level is clear presentation, the second is the sense of primary and secondary (for example, the engineering part should be written in brief, while the research part should be highlighted), the third is logic, and the forth is about politics
+i feel that you're between level one and two
+
+writing is tricky, you may confuse readers before you reach level three, and you may offend readers if you don't reach level four
+
+Now
+ --------------------------------------------------------
+
+sec 8 is still too rough
+for example, "discuss some of di?erences with Bluetooth hopping protocol, '
+ok
+
+presentations like this are not acceptable
+could you polish again? i'll take 20 min to have my breakfast
+yes
+
+remove bold sub-cap
+ok
+
+the principle is that, if there is only one sub-cap in a section or subsection or subsubsection, then it means that you're not using it correctly, or it's unnecessary to use it
+right 
+
+the intro of ble hopping shouldn't go to too much details
+for example, in background sec, we didn't discuss how the hop selection kernel is designed, right?
+right
+
+we also didn't intoduce how each hop index is computed
+same in ble
+yes
+
+the key point to convey is that what parameters determine the hop selection,
+and the complexity of reverse the hopping system,
+right
+
+like how many subchannels ble uses, how long its hopping seq repeats itself ...

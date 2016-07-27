@@ -4,7 +4,6 @@ Wireless Comm., mobile computing, MIMO, etc
 - http://www-users.cs.umn.edu/~ksong/index.html
 - http://web.eecs.umich.edu/~zmao/pubs.html
 - http://nms.citi.sinica.edu.tw/katelin/
-- http://www.sistani.org/arabic/book/23/1924/
 - http://mesl.ucsd.edu/site/publications.html
 - http://www.asp.eurasipjournals.com/content/2011/1/135
 - http://people.csail.mit.edu/szym/rawofdm/README.html
@@ -29,3 +28,5 @@ Wireless Comm., mobile computing, MIMO, etc
 - http://www.wireshark.ch/download/Sharkfest10_A10_WLAN-802-11n-MIMO-Analysis.pdf
 - http://airmagnet.flukenetworks.com/assets/whitepaper/WP-802.11nPrimer.pdf
 - http://www.cs.tut.fi/kurssit/TLT-6556/Slides/2-802.11n.pdf
+# S
+- http://www.sistani.org/arabic/book/23/1924/

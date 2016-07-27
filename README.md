@@ -26,3 +26,6 @@ Wireless Comm., mobile computing, MIMO, etc
 - http://web.stanford.edu/class/ee360/resources.html
 - http://www.cs.princeton.edu/~mshahbaz/
 - https://www.rcs.ei.tum.de/persons/kindt/
+- http://www.wireshark.ch/download/Sharkfest10_A10_WLAN-802-11n-MIMO-Analysis.pdf
+- http://airmagnet.flukenetworks.com/assets/whitepaper/WP-802.11nPrimer.pdf
+- http://www.cs.tut.fi/kurssit/TLT-6556/Slides/2-802.11n.pdf

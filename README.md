@@ -29,7 +29,6 @@ Wireless Comm., mobile computing, MIMO, etc
 - http://www.cs.tut.fi/kurssit/TLT-6556/Slides/2-802.11n.pdf
 
 # S
-S
 - http://www.sistani.org/arabic/book/23/1924/
 
 # Goog progects

@@ -25,7 +25,7 @@ Madison, Wisconsin
 U of Illinois 
 ---------------
 - http://web.engr.illinois.edu/~hewang5/research.html
-- http://web.engr.illinois.edu/%7Ecroy/
+- http://web.engr.illinois.edu/~croy/
 - https://users.cs.duke.edu/~ssen/research.html
 - https://users.cs.duke.edu/~lpcox/tabs/papers.html
 
@@ -50,6 +50,7 @@ Misc
 Nice courses:
 --------------
 - http://web.stanford.edu/class/ee360/resources.html
+- https://courses.engr.illinois.edu/ece498rc3/
 
 Nice projects:
 -----------

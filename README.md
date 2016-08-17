@@ -1,4 +1,4 @@
-# RDING Researchers:
+# Researchers Reading :
 
 Ann Arbor, MI
 ---------------
@@ -20,7 +20,7 @@ U of Minnesota
 Madison, Wisconsin 
 -------
 - http://xyzhang.ece.wisc.edu/
-
+- http://pages.cs.wisc.edu/~suman/
 
 U of Illinois 
 ---------------

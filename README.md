@@ -27,12 +27,12 @@ Researchers:
 Nice projects:
 - http://people.csail.mit.edu/szym/rawofdm/README.html
 - http://www.ccs-labs.org/software/gr-ieee802-11/
-- 
+
 Articles:
 - http://www.wireshark.ch/download/Sharkfest10_A10_WLAN-802-11n-MIMO-Analysis.pdf
 - http://airmagnet.flukenetworks.com/assets/whitepaper/WP-802.11nPrimer.pdf
 - http://www.cs.tut.fi/kurssit/TLT-6556/Slides/2-802.11n.pdf
-- 
+
 Wireless Comm., mobile computing, MIMO, etc
 # S
 

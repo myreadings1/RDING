@@ -29,19 +29,24 @@ U of Illinois
 - https://users.cs.duke.edu/~ssen/research.html
 - https://users.cs.duke.edu/~lpcox/tabs/papers.html
 
+MIT:
+------------
+- http://people.csail.mit.edu/dina/
+- http://nms.lcs.mit.edu/~hari/
 
-California
+
+California:
 -----------------
 - http://www.cs.ucsb.edu/~laradeek/projects.html
 - https://cse.sc.edu/~srihari/
 - http://mesl.ucsd.edu/site/publications.html
 - http://alumni.cs.ucr.edu/~marslan/UCR/Welcome.html
 
-Taiwan
+Taiwan:
 ---------------
 - http://nms.citi.sinica.edu.tw/katelin/
 
-Misc
+Misc researchers:
 -----------
 - http://www.cs.princeton.edu/~mshahbaz/
 - http://www2.cs.uh.edu/~gnawali/

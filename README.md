@@ -38,8 +38,8 @@ MIT:
 California:
 -----------------
 - http://www.cs.ucsb.edu/~laradeek/projects.html
-- https://cse.sc.edu/~srihari/
 - http://mesl.ucsd.edu/site/publications.html
+- https://cse.sc.edu/~srihari/
 - http://alumni.cs.ucr.edu/~marslan/UCR/Welcome.html
 
 Taiwan:

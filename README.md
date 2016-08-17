@@ -6,12 +6,12 @@ Researchers:
 - http://nms.citi.sinica.edu.tw/katelin/
 - http://mesl.ucsd.edu/site/publications.html
 - https://cse.sc.edu/~srihari/
--
+===========
 - http://staff.washington.edu/kellogg/files/passive_wifi.pdf
 - http://iotwifi.cs.washington.edu/files/wifiBackscatter.pdf
 - https://homes.cs.washington.edu/~gshyam/
 - https://scholar.google.com/citations?user=HeEBacsAAAAJ
--
+============
 - http://alumni.cs.ucr.edu/~marslan/UCR/Welcome.html
 - http://www-users.cs.umn.edu/~tianhe/research.html
 - http://www-users.cs.umn.edu/~ksong/index.html
@@ -20,7 +20,7 @@ Researchers:
 - http://web.stanford.edu/class/ee360/resources.html
 - http://www.cs.princeton.edu/~mshahbaz/
 - https://www.rcs.ei.tum.de/persons/kindt/
--
+===========
 - http://web.engr.illinois.edu/~hewang5/research.html
 - http://web.engr.illinois.edu/%7Ecroy/
 - https://users.cs.duke.edu/~ssen/research.html

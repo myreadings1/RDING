@@ -50,6 +50,7 @@ Misc
 Nice courses:
 --------------
 - http://web.stanford.edu/class/ee360/resources.html
+
 Nice projects:
 -----------
 - http://people.csail.mit.edu/szym/rawofdm/README.html

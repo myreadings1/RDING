@@ -17,16 +17,9 @@ U of Minnesota
 - http://www-users.cs.umn.edu/~tianhe/research.html
 - http://www-users.cs.umn.edu/~ksong/index.html
 
- 
+Madison, Wisconsin 
 -------
 - http://xyzhang.ece.wisc.edu/
-
-U of 
------------
-- http://www2.cs.uh.edu/~gnawali/
-- http://web.stanford.edu/class/ee360/resources.html
-- http://www.cs.princeton.edu/~mshahbaz/
-- https://www.rcs.ei.tum.de/persons/kindt/
 
 
 U of Illinois 
@@ -48,7 +41,15 @@ Taiwan
 ---------------
 - http://nms.citi.sinica.edu.tw/katelin/
 
+Misc
+-----------
+- http://www.cs.princeton.edu/~mshahbaz/
+- http://www2.cs.uh.edu/~gnawali/
+- https://www.rcs.ei.tum.de/persons/kindt/
 
+Nice courses:
+--------------
+- http://web.stanford.edu/class/ee360/resources.html
 Nice projects:
 -----------
 - http://people.csail.mit.edu/szym/rawofdm/README.html

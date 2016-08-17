@@ -1,16 +1,20 @@
 # RDING
 Researchers:
+Ann Arbor, MI
 - http://web.eecs.umich.edu/~kgshin/
 - http://web.eecs.umich.edu/~zmao/pubs.html
 - http://www.cs.ucsb.edu/~laradeek/projects.html
-- http://nms.citi.sinica.edu.tw/katelin/
 - http://mesl.ucsd.edu/site/publications.html
 - https://cse.sc.edu/~srihari/
-#####################
+- http://nms.citi.sinica.edu.tw/katelin/
+
+Seatle, Washington 
+--------------------
 - http://staff.washington.edu/kellogg/files/passive_wifi.pdf
 - http://iotwifi.cs.washington.edu/files/wifiBackscatter.pdf
 - https://homes.cs.washington.edu/~gshyam/
 - https://scholar.google.com/citations?user=HeEBacsAAAAJ
+
 ============
 - http://alumni.cs.ucr.edu/~marslan/UCR/Welcome.html
 - http://www-users.cs.umn.edu/~tianhe/research.html
@@ -21,12 +25,17 @@ Researchers:
 - http://www.cs.princeton.edu/~mshahbaz/
 - https://www.rcs.ei.tum.de/persons/kindt/
 ===========
+
+U of Illinois 
+---------------
 - http://web.engr.illinois.edu/~hewang5/research.html
 - http://web.engr.illinois.edu/%7Ecroy/
 - https://users.cs.duke.edu/~ssen/research.html
 - https://users.cs.duke.edu/~lpcox/tabs/papers.html
-- 
+
+
 Nice projects:
+==============
 - http://people.csail.mit.edu/szym/rawofdm/README.html
 - http://www.ccs-labs.org/software/gr-ieee802-11/
 - http://www.asp.eurasipjournals.com/content/2011/1/135

@@ -1,6 +1,7 @@
-# RDING
-Researchers:
+# RDING Researchers:
+
 Ann Arbor, MI
+---------------
 - http://web.eecs.umich.edu/~kgshin/
 - http://web.eecs.umich.edu/~zmao/pubs.html
 - http://www.cs.ucsb.edu/~laradeek/projects.html
@@ -15,16 +16,23 @@ Seatle, Washington
 - https://homes.cs.washington.edu/~gshyam/
 - https://scholar.google.com/citations?user=HeEBacsAAAAJ
 
-============
-- http://alumni.cs.ucr.edu/~marslan/UCR/Welcome.html
+U of Minnesota 
+------------------
 - http://www-users.cs.umn.edu/~tianhe/research.html
 - http://www-users.cs.umn.edu/~ksong/index.html
+
+ 
+-------
 - http://xyzhang.ece.wisc.edu/
+
+U of 
+-----------
+- http://alumni.cs.ucr.edu/~marslan/UCR/Welcome.html
 - http://www2.cs.uh.edu/~gnawali/
 - http://web.stanford.edu/class/ee360/resources.html
 - http://www.cs.princeton.edu/~mshahbaz/
 - https://www.rcs.ei.tum.de/persons/kindt/
-===========
+
 
 U of Illinois 
 ---------------

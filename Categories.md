@@ -1,4 +1,3 @@
-
 BT/BLE
 ---------------
 - USENIX16 http://kassemfawaz.com/papers/ble-guardian.pdf

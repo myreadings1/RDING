@@ -35,6 +35,7 @@ MIT:
 - http://people.csail.mit.edu/dina/
 - http://nms.lcs.mit.edu/~hari/
 - https://cs.stanford.edu/~keithw/
+- http://people.csail.mit.edu/alizadeh/publications.html
 
 California:
 -----------------

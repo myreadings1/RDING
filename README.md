@@ -47,6 +47,10 @@ Taiwan:
 ---------------
 - http://nms.citi.sinica.edu.tw/katelin/
 
+Wayne state:
+----------
+- http://www.cs.wayne.edu/~hzhang/group/publications-representatives.html
+
 Misc researchers:
 -----------
 - http://www.cs.princeton.edu/~mshahbaz/

@@ -1,4 +1,4 @@
-[Categories](https://github.com/wmusa/RDING/blob/master/Categories.md)
+
 # Researchers Reading :
 
 Ann Arbor, MI
@@ -78,5 +78,8 @@ Wireless Comm., mobile computing, MIMO, etc
 S
 --------------
 
-# Goog progects
+Goog progects
+-------------
 - https://www.google.com/?gws_rd=ssl#q=google+project+soli
+
+[Categories](https://github.com/wmusa/RDING/blob/master/Categories.md)

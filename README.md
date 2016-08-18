@@ -1,3 +1,4 @@
+[Categories](https://github.com/wmusa/RDING/blob/master/Categories.md)
 # Researchers Reading :
 
 Ann Arbor, MI

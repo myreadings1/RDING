@@ -1,0 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Some writing highlights for implementation..
+
+1- Implementation is different from design.. Impl is related to the platform or how we impl a specific design.. When the platform is changed then the implementation details are changed..
+
+2- In the implementation, we plot a comprehensive block diagram to show the entire system blocks and how they cooperate, what msgs the exchange.. What is the sequence of msgs.. And these things..
+
+Then when we describe the system, we do it in an abstract way.. Like x takes CLK and computes subchannel index.. Our we describe, sequence of event execution or sequence of tasks execution..
+
+The structure of implementation should be built in a logical way; and also it should be consistent..
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

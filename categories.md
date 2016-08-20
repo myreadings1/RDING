@@ -16,3 +16,12 @@ ZigBee
 New
 --------
 - MIMO for low power devices?
+
+iBeacon
+-----
+- http://www.nomi.com/resources/white-papers/bluetooth-low-energy-beacons/
+- https://en.wikipedia.org/wiki/IBeacon
+- http://www.litepoint.com/wp-content/uploads/2014/02/Bluetooth-Low-Energy_WhitePaper.pdf
+- https://www.quora.com/Bluetooth-Smart-v4-0-Low-Energy/How-much-power-can-actually-be-saved-when-using-BLE-on-a-Phone
+- http://www.digikey.com/en/articles/techzone/2011/dec/bluetooth-goes-ultra-low-power
+- http://electronics.stackexchange.com/questions/30964/improving-throughput-of-a-bluetooth-low-energy-connection

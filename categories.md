@@ -25,3 +25,8 @@ iBeacon
 - https://www.quora.com/Bluetooth-Smart-v4-0-Low-Energy/How-much-power-can-actually-be-saved-when-using-BLE-on-a-Phone
 - http://www.digikey.com/en/articles/techzone/2011/dec/bluetooth-goes-ultra-low-power
 - http://electronics.stackexchange.com/questions/30964/improving-throughput-of-a-bluetooth-low-energy-connection
+
+BlueZ code
+------
+- http://sourcecodebrowser.com/bluez/4.81/hci_8c.html#ac7268bd1be5b98e8480e63310bb05902
+- https://github.com/bmwcarit/bluez/blob/master/monitor/packet.c

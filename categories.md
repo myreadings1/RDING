@@ -30,3 +30,8 @@ BlueZ code
 ------
 - http://sourcecodebrowser.com/bluez/4.81/hci_8c.html#ac7268bd1be5b98e8480e63310bb05902
 - https://github.com/bmwcarit/bluez/blob/master/monitor/packet.c
+
+Packet recovery
+-------
+- [PPR: Partial Packet Recovery for Wireless Networks](http://nms.lcs.mit.edu/papers/fp315-jamieson.pdf)
+- ZipTx: 

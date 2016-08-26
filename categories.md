@@ -34,4 +34,21 @@ BlueZ code
 Packet recovery
 -------
 - [PPR: Partial Packet Recovery for Wireless Networks](http://nms.lcs.mit.edu/papers/fp315-jamieson.pdf)
-- ZipTx: 
+- [ZipTx: Harnessing Partial Packets in 802.11 Networks] (http://groups.csail.mit.edu/netmit/wordpress/wp-content/themes/netmit/papers/ziptx.pdf)
+
+Misc
+--------
+- Airshark: Detecting Non-WiFi RF Devices using Commodity WiFi Hardware
+- Trading structure for randomness in wireless opportunistic routing.
+- AccuRate: Constellation based rate estimation in wireless networks
+- Embracing wireless interference analog network coding
+- XORs in the air practical wireless network coding
+- Symbol-level network coding for wireless mesh networks
+- Enhancing vehicular internet connectivity using white spaces heterogeneity and a scouting radio
+- PIE in the sky: online passive interference estimation for enterprise wlans
+- CENTAUR: Realizing the Full Potential of Centralized WLANs through a Hybrid Data Path
+- Design and implementation of an approximate communication system for wireless media applications
+- Blue-fi enhancing wi-fi performance using bluetooth signals
+- Sourcesync a distributed wireless architecture for exploiting sender diversity
+- Fine-grained channel access in wireless lan
+

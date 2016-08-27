@@ -28,4 +28,4 @@ Goog progects
 -------------
 - https://www.google.com/?gws_rd=ssl#q=google+project+soli
 
-[Categories](https://github.com/wmusa/RDING/blob/master/Categories.md)
+[Categories]

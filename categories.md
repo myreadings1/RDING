@@ -7,7 +7,8 @@ BT/BLE
 MIMO
 --------------
 - http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7218581
-
+- Pkt delivery vs CSI
+- Possibility of using csi to correct errors. 
 
 ZigBee
 ---------

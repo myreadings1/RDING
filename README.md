@@ -21,8 +21,10 @@ Wireless Comm., mobile computing, MIMO, etc
 -----------
 
 
-S
+Python
 --------------
+- https://docs.python.org/3/tutorial/index.html
+
 
 Goog progects
 -------------

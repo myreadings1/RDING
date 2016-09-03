@@ -16,7 +16,7 @@ ZigBee
 
 HI
 --------
-- MIMO for low power devices? Avoiding FFT and count on time symbols.? Toward SDR for BT/BLE, power? architecture? benefits over current HW arch? flexibility? scalability? 
+- MIMO for low power devices? Avoiding FFT and count on time symbols.? Toward SDR for BT/BLE, power? architecture? benefits over current HW arch? flexibility? scalability? Low power wireless devices are usually used with sensors (low computation CPU) which their arch is suitable rather such CPUs rather than regular PCs.
 
 iBeacon
 -----

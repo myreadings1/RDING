@@ -30,4 +30,7 @@ Goog progects
 -------------
 - https://www.google.com/?gws_rd=ssl#q=google+project+soli
 
-[Categories]
+Misc
+----------
+- Human rights (http://www.human-rights-in-islam.co.uk/index.php?option=com_content&view=article&id=184:congress-secularism-and-mumbais-season-of-arson-by-ghulam-muhammed&catid=35:political)
+- 

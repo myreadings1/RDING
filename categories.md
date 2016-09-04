@@ -9,6 +9,8 @@ MIMO
 - http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7218581
 - Pkt delivery vs CSI
 - Possibility of using csi to correct errors. 
+- https://lists.gnu.org/archive/html/discuss-gnuradio/2014-02/msg00331.html
+
 
 ZigBee
 ---------

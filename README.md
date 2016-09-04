@@ -11,6 +11,7 @@ Nice projects:
 - http://www.ccs-labs.org/software/gr-ieee802-11/
 - http://www.asp.eurasipjournals.com/content/2011/1/135
 - https://sites.google.com/a/vt.edu/amp_lab/projects/active-projects
+- https://www.microsoft.com/en-us/research/project/microsoft-research-software-radio-sora/
 
 Articles:
 ---------

@@ -10,6 +10,45 @@ MIMO
 - Pkt delivery vs CSI
 - Possibility of using csi to correct errors. 
 - https://lists.gnu.org/archive/html/discuss-gnuradio/2014-02/msg00331.html
+- http://gnuradio.org/redmine/projects/gnuradio/wiki/MultiUsrp
+- https://lists.gnu.org/archive/html/discuss-gnuradio/2014-12/msg00068.html
+- https://lists.gnu.org/archive/html/discuss-gnuradio/2015-07/msg00230.html
+- https://en.wikipedia.org/wiki/Frame_aggregation
+- https://www.google.com/#q=802.11n%20packet%20format
+- http://www.wireshark.ch/download/Cisco_PSE_Day_2009.pdf
+- https://www.google.com/#q=atheros+ar9285+802.11n
+- 802.11n channel offset
+- https://mrncciew.com/2014/10/19/cwap-802-11n-introduction/
+- https://mrncciew.com/2014/10/19/cwap-ht-capabilities-ie/
+- https://www.broadcom.com/collateral/wp/802_11n-WP100-R.pdf
+- http://www.eetimes.com/document.asp?doc_id=1273476&page_number=2
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2014-November/011360.html
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2014-January/008344.html
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2015-April/013710.html
+- http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/
+- gnuradio fft example c++ gr::fft
+- http://gnuradio.org/doc/doxygen/page_ofdm.html
+- http://gnuradio.org/doc/doxygen/page_packet_data.html
+- http://gnuradio.org/redmine/projects/gnuradio/wiki/Guided_Tutorial_Extras_Sample_Rates
+- http://gnuradio.org/redmine/projects/gnuradio/wiki/Guided_Tutorial_GNU_Radio_in_C++
+- http://gnuradio.org/redmine/projects/gnuradio/repository/revisions/b7d8980a6e9e070609b4270ad51d8a91ebfb60b2/entry/gr-audio/examples/c++/dial_tone.cc
+- http://gnuradio.org/doc/doxygen/classgr_1_1hier__block2.html#details
+
+Signal processing and representation
+-----------------------------------
+- https://www.google.com/search?q=quadrature+signal&biw=1855&bih=1105&source=lnms&sa=X&ved=0ahUKEwjl1pK16vXOAhVLzIMKHaV9DPsQ_AUIBSgA&dpr=1#q=quadrature+I%2FQ+signal
+- http://www.tek.com/blog/what%E2%80%99s-your-iq-%E2%80%93-about-quadrature-signals%E2%80%A6
+- http://circuitcellar.com/cc-blog/fundamentals-of-iq-signals/
+- http://www.ni.com/tutorial/4805/en/
+- https://awrcorp.com/download/faq/english/docs/VSS_Modeling_Guide/CH1.htm
+- http://www.eetimes.com/document.asp?doc_id=1275580
+- https://www.csun.edu/~skatz/katzpage/sdr_project/sdr/grc_tutorial4.pdf
+- http://files.ettus.com/tutorials/labs/Lab_1-5.pdf
+- https://www.ece.uvic.ca/~elec350/lab_manual/ar01s02s02.html
+- https://en.wikipedia.org/wiki/Trigonometric_functions
+- http://www.sosmath.com/trig/Trig5/trig5/trig5.html
+- https://en.wikipedia.org/wiki/List_of_trigonometric_identities
+- https://www.google.com/#q=b210+usrp+rx+channels+alignment
 
 
 ZigBee

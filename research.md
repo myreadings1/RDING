@@ -56,6 +56,10 @@ Micsoft
 -----------
 - http://research.microsoft.com/en-us/um/people/pcosta/
 
+U Texas
+-----------
+- http://www.cs.utexas.edu/~lili/
+
 Misc researchers:
 -----------
 - http://www.cs.princeton.edu/~mshahbaz/

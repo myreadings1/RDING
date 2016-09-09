@@ -52,6 +52,10 @@ Wayne state:
 ----------
 - http://www.cs.wayne.edu/~hzhang/group/publications-representatives.html
 
+Micsoft
+-----------
+- http://research.microsoft.com/en-us/um/people/pcosta/
+
 Misc researchers:
 -----------
 - http://www.cs.princeton.edu/~mshahbaz/

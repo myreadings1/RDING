@@ -59,6 +59,9 @@ HI
 --------
 - MIMO for low power devices? Avoiding FFT and count on time symbols.? Toward SDR for BT/BLE, power? architecture? benefits over current HW arch? flexibility? scalability? Low power wireless devices are usually used with sensors (low computation CPU) which their arch is suitable rather such CPUs rather than regular PCs.
 - BT pkt injection? identity spoofing in BT? wireless NAC? any sol rathen than encryption? BLE as well?
+- https://www.cs.utexas.edu/users/swadhin/reading_group/papers/Infocom2016_Paper.pdf
+- http://www.cs.utexas.edu/~lili/papers/pub/icnp-retx.pdf
+- 
 
 iBeacon
 -----

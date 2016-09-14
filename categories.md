@@ -33,6 +33,7 @@ MIMO
 - http://gnuradio.org/redmine/projects/gnuradio/wiki/Guided_Tutorial_GNU_Radio_in_C++
 - http://gnuradio.org/redmine/projects/gnuradio/repository/revisions/b7d8980a6e9e070609b4270ad51d8a91ebfb60b2/entry/gr-audio/examples/c++/dial_tone.cc
 - http://gnuradio.org/doc/doxygen/classgr_1_1hier__block2.html#details
+- http://gnuradio.org/doc/doxygen/page_ofdm.html
 
 Signal processing and representation
 -----------------------------------
@@ -61,7 +62,7 @@ HI
 - BT pkt injection? identity spoofing in BT? wireless NAC? any sol rathen than encryption? BLE as well?
 - https://www.cs.utexas.edu/users/swadhin/reading_group/papers/Infocom2016_Paper.pdf
 - http://www.cs.utexas.edu/~lili/papers/pub/icnp-retx.pdf
-- 
+
 
 iBeacon
 -----

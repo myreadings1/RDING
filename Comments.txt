@@ -62,3 +62,11 @@ and the complexity of reverse the hopping system,
 right
 
 like how many subchannels ble uses, how long its hopping seq repeats itself ...
+
+==========================
+Emprical vs provable presentation..
+This seems quite empirical. Is it possible that a wrong clock candidate has the maximum votes and minimum d_c at the same time?
+
+If it is impossible and there is a theorem behind that, then we need additional explanation or proofs.
+
+If it is possible and the the criteria presented in this sentence is empirical, then we need to revise the sentence like "BlueEar uses the clock candidate returned by the MLV algorithm as an approximation of the global maxima when the candidate is also associated with the minimum d_c value. Otherwise, BlueEar continues listening until ..."  And then discuss how to handle the case when this empirical criteria fails.

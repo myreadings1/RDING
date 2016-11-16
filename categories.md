@@ -99,3 +99,6 @@ Misc
 - Sourcesync a distributed wireless architecture for exploiting sender diversity
 - Fine-grained channel access in wireless lan
 
+Vehicular network
+----------
+http://www.iaeng.org/publication/WCECS2014/WCECS2014_pp691-698.pdf

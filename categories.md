@@ -101,4 +101,18 @@ Misc
 
 Vehicular network
 ----------
-http://www.iaeng.org/publication/WCECS2014/WCECS2014_pp691-698.pdf
+- http://www.iaeng.org/publication/WCECS2014/WCECS2014_pp691-698.pdf
+- https://apoorvsaxena4.wordpress.com/2015/06/07/phy-layer-ieee-802-11p/
+- http://www.cvt-project.ir/Admin/Files/eventAttachments/109.pdf
+- http://essay.utwente.nl/60980/1/MSc_Pieter_van_Wijngaarden.pdf
+- https://www.google.com/search?client=ubuntu&channel=fs&q=802.11p&ie=utf-8&oe=utf-8#channel=fs&q=802.11p+physical+layer
+
+
+Compressed sensing
+------
+- https://en.wikipedia.org/wiki/Compressed_sensing
+- 
+Basement construction
+-------
+- https://www.google.com/search?q=basement+construction+methods&biw=1831&bih=1096&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwi8opjdyKnQAhUh24MKHT0CA5gQ_AUIBygC#imgrc=cpWGxZhAakAHUM%3A
+- http://www.about-home-design.com/building-a-basement.html

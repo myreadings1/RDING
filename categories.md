@@ -111,7 +111,7 @@ Vehicular network
 Compressed sensing
 ------
 - https://en.wikipedia.org/wiki/Compressed_sensing
-- 
+ 
 Basement construction
 -------
 - https://www.google.com/search?q=basement+construction+methods&biw=1831&bih=1096&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwi8opjdyKnQAhUh24MKHT0CA5gQ_AUIBygC#imgrc=cpWGxZhAakAHUM%3A

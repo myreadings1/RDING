@@ -64,6 +64,7 @@ U Texas
 
 Misc researchers:
 -----------
+- https://scholar.google.at/citations?hl=de&user=xp74DqQAAAAJ&view_op=list_works
 - http://www.cs.princeton.edu/~mshahbaz/
 - http://www2.cs.uh.edu/~gnawali/
 - https://www.rcs.ei.tum.de/persons/kindt/

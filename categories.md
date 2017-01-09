@@ -101,6 +101,7 @@ Misc
 
 Vehicular network
 ----------
+- https://scholar.google.at/citations?hl=de&user=xp74DqQAAAAJ&view_op=list_works
 - http://www.iaeng.org/publication/WCECS2014/WCECS2014_pp691-698.pdf
 - https://apoorvsaxena4.wordpress.com/2015/06/07/phy-layer-ieee-802-11p/
 - http://www.cvt-project.ir/Admin/Files/eventAttachments/109.pdf

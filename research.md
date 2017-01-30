@@ -68,4 +68,4 @@ Misc researchers:
 - http://www.cs.princeton.edu/~mshahbaz/
 - http://www2.cs.uh.edu/~gnawali/
 - https://www.rcs.ei.tum.de/persons/kindt/
-
+- http://www.ws.binghamton.edu/fowler/

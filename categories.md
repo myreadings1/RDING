@@ -51,6 +51,15 @@ Signal processing and representation
 - https://en.wikipedia.org/wiki/List_of_trigonometric_identities
 - https://www.google.com/#q=b210+usrp+rx+channels+alignment
 
+Maximum Likelihood Estimation, Point Estimation
+----------------------------------------------------
+- https://courses.cit.cornell.edu/econ620/reviewm5.pdf
+- http://www.maths.manchester.ac.uk/~peterf/CSI_ch4_part1.pdf
+- https://www.google.com/#q=maximum+likelihood+estimation+regularity+conditions
+- http://www.stat.cmu.edu/~larry/=stat705/
+- http://nowak.ece.wisc.edu/SLT09.html
+- https://www.encyclopediaofmath.org/index.php/Loss_function
+
 
 ZigBee
 ---------

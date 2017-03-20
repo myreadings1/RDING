@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Bt Tx 1
-# Generated: Thu Mar 16 20:02:27 2017
+# Generated: Mon Mar 20 09:53:01 2017
 ##################################################
 
 if __name__ == '__main__':
@@ -39,9 +39,9 @@ class bt_tx_1(grc_wxgui.top_block_gui):
         ##################################################
         # Variables
         ##################################################
-        self.sps = sps = 2
+        self.sps = sps = 4
         self.samp_rate_0 = samp_rate_0 = 1e6
-        self.mod_index = mod_index = 1/1.5
+        self.mod_index = mod_index = 0.32
         self.freq = freq = 2404e6
 
         ##################################################
@@ -56,25 +56,23 @@ class bt_tx_1(grc_wxgui.top_block_gui):
         )
         self.uhd_usrp_sink_0.set_samp_rate(sps)
         self.uhd_usrp_sink_0.set_center_freq(freq, 0)
-        self.uhd_usrp_sink_0.set_gain(45, 0)
+        self.uhd_usrp_sink_0.set_gain(50, 0)
         self.uhd_usrp_sink_0.set_antenna("TX/RX", 0)
         self.digital_gfsk_mod_0 = digital.gfsk_mod(
         	samples_per_symbol=sps,
-        	sensitivity=(3.14*mod_index)/sps,
+        	sensitivity=1,
         	bt=0.32,
         	verbose=False,
         	log=False,
         )
-        self.blocks_throttle_0 = blocks.throttle(gr.sizeof_char*1, samp_rate_0,True)
         self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vcc((0.7, ))
         self.blocks_file_source_0 = blocks.file_source(gr.sizeof_char*1, "sync2", True)
 
         ##################################################
         # Connections
         ##################################################
-        self.connect((self.blocks_file_source_0, 0), (self.blocks_throttle_0, 0))    
+        self.connect((self.blocks_file_source_0, 0), (self.digital_gfsk_mod_0, 0))    
         self.connect((self.blocks_multiply_const_vxx_0, 0), (self.uhd_usrp_sink_0, 0))    
-        self.connect((self.blocks_throttle_0, 0), (self.digital_gfsk_mod_0, 0))    
         self.connect((self.digital_gfsk_mod_0, 0), (self.blocks_multiply_const_vxx_0, 0))    
 
     def get_sps(self):
@@ -89,7 +87,6 @@ class bt_tx_1(grc_wxgui.top_block_gui):
 
     def set_samp_rate_0(self, samp_rate_0):
         self.samp_rate_0 = samp_rate_0
-        self.blocks_throttle_0.set_sample_rate(self.samp_rate_0)
 
     def get_mod_index(self):
         return self.mod_index

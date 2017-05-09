@@ -62,6 +62,10 @@ U Texas
 - http://www.cs.utexas.edu/~lili/
 - https://www.cs.utexas.edu/users/swadhin/
 
+G Tech
+------------
+- http://mdav.ece.gatech.edu/index.html
+
 Misc researchers:
 -----------
 - https://scholar.google.at/citations?hl=de&user=xp74DqQAAAAJ&view_op=list_works

@@ -121,6 +121,10 @@ Vehicular network
 Compressed sensing
 ------
 - https://en.wikipedia.org/wiki/Compressed_sensing
+
+Cobinotorics
+--------------
+- Miklos Bona [see](https://people.clas.ufl.edu/bona/)
  
 Basement construction
 -------

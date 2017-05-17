@@ -122,9 +122,12 @@ Compressed sensing
 ------
 - https://en.wikipedia.org/wiki/Compressed_sensing
 
-Cobinotorics
+Combinotorics
 --------------
 - Miklos Bona [see](https://people.clas.ufl.edu/bona/)
+- https://math.dartmouth.edu/news-resources/electronic/kpbogart/ComboNoteswHints11-06-04.pdf
+- http://www.math.uvic.ca/faculty/gmacgill/guide/combargs.pdf
+
  
 Basement construction
 -------

@@ -6,3 +6,8 @@ Web sites
 - [see](https://www.google.com/search?q=gatt+ble+linux&oq=gatt+ble+&aqs=chrome.4.69i57j0l5.9839j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8)
 - [see](https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-sniffer) 
 - [see](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/w-series-wireless-m0-plus-m4/bluetooth-low-energy-ieee-802.15.4-packet-sniffer-usb-dongle-for-kinetis-kw40z-30z-20z-mcus:USB-KW40Z)
+ - [see](https://www.google.com/search?q=bluetooth+low+energy+packet+sniffer&client=ubuntu&hs=kL9&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi_lreO05PUAhWb14MKHWq0AFwQ_AUICygC&biw=1375&bih=810#imgrc=3kuiWyBwR44a7M:)
+- [see](https://stackoverflow.com/questions/38963836/bluetooth-low-energy-gatt-security-levels)
+- [see](https://www.google.com/search?q=gatt+security+level&oq=gatt+security+level&aqs=chrome..69i57.7944j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8)
+- [see](https://stackoverflow.com/questions/17835469/using-bluetooth-low-energy-in-linux-command-line)
+- [see](https://www.google.com/search?q=ble+data+transfer&oq=ble+data&aqs=chrome.2.0j69i57j0l4.4648j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8#q=ble+data+transfer+linux+command)

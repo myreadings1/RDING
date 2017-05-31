@@ -11,3 +11,7 @@ Web sites
 - [see](https://www.google.com/search?q=gatt+security+level&oq=gatt+security+level&aqs=chrome..69i57.7944j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8)
 - [see](https://stackoverflow.com/questions/17835469/using-bluetooth-low-energy-in-linux-command-line)
 - [see](https://www.google.com/search?q=ble+data+transfer&oq=ble+data&aqs=chrome.2.0j69i57j0l4.4648j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8#q=ble+data+transfer+linux+command)
+
+Data Transfer
+-------
+- https://e2e.ti.com/support/wireless_connectivity/bluetooth_low_energy/f/538/t/157081

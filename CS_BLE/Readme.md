@@ -15,3 +15,4 @@ Web sites
 Data Transfer
 -------
 - https://e2e.ti.com/support/wireless_connectivity/bluetooth_low_energy/f/538/t/157081
+- https://github.com/adafruit/Adafruit_Python_BluefruitLE

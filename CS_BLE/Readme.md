@@ -16,3 +16,7 @@ Data Transfer
 -------
 - https://e2e.ti.com/support/wireless_connectivity/bluetooth_low_energy/f/538/t/157081
 - https://github.com/adafruit/Adafruit_Python_BluefruitLE
+
+Notes:
+-------
+- If we use BT symbols with as nonzero coefficint, CS should work better than the proposed method in the CS paper. This is because they based on SNR. BT signal is has sparse representation, which fits CS approaches. 

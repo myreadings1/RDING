@@ -123,6 +123,10 @@ Compressed sensing
 - https://en.wikipedia.org/wiki/Compressed_sensing
 - http://stemblab.github.io/
 
+Machine Learning tools
+-------------------
+- http://scikit-learn.org/stable/auto_examples/index.html#general-examples
+
 Math is fun
 --------------
 - https://www.mathsisfun.com/data/index.html

@@ -126,6 +126,7 @@ Compressed sensing
 Machine Learning tools
 -------------------
 - http://scikit-learn.org/stable/auto_examples/index.html#general-examples
+- https://github.com/scikit-learn/scikit-learn
 
 Math is fun
 --------------

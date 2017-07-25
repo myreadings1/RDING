@@ -39,3 +39,6 @@ Misc
 
 - https://www.yahosein.com/vb/showthread.php?t=131456
 - http://www.yahosein.com/vb/showthread.php?t=131457
+- http://www.sayidaty.net/node/277621/%D8%B5%D8%AD%D8%A9-%D9%88%D8%B1%D8%B4%D8%A7%D9%82%D8%A9/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9/%D8%B7%D8%B1%D9%82-%D8%B9%D9%84%D9%85%D9%8A%D8%A9-%D8%AA%D8%B3%D8%A7%D8%B9%D8%AF-%D8%B9%D9%84%D9%89-%D8%A5%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D8%B0%D9%83%D9%88%D8%B1
+
+-http://mawdoo3.com/%D9%83%D9%8A%D9%81_%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_%D9%88%D9%84%D8%AF

@@ -36,3 +36,6 @@ Misc
 ----------
 - [Human rights] (http://www.human-rights-in-islam.co.uk/index.php?option=com_content&view=article&id=184:congress-secularism-and-mumbais-season-of-arson-by-ghulam-muhammed&catid=35:political)
 - [Al-Isla](https://www.al-islam.org/voice-human-justice-sautul-adalatil-insaniyah-george-jordac/ruler-one-people)
+
+- https://www.yahosein.com/vb/showthread.php?t=131456
+- http://www.yahosein.com/vb/showthread.php?t=131457

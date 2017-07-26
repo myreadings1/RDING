@@ -16,3 +16,5 @@ https://www.reddit.com/r/DSP/comments/3u614q/gnu_radio_gfsk_modulation_rate_devi
 http://www.indigresso.com/wiki/doku.php?id=opentag:radios:testing_with_gnuradio
 - Set max memory
 sudo sysctl -w kernel.shmmax=2147483648
+- B210 Overflow problem
+https://github.com/EttusResearch/uhd/issues/58

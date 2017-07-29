@@ -1,0 +1,536 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+  <title>I/Q Data for Dummies </title>
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" href="I_Q%20Data%20for%20Dummies_files/blog.css" type="text/css">
+  <link rel="icon" href="http://whiteboard.ping.se/pub/skins/blog/blogicon.gif" type="image/gif">
+  <link rel="SHORTCUT ICON" href="http://whiteboard.ping.se/pub/skins/blog/blogicon.gif">
+  <!--HeaderText--><style type="text/css"><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code.escaped { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  
+div.eqn { margin: 0 2em; }
+div.eqn table { width: 100%; }
+div.eqn iframe {
+ width: 100%;
+ height: 80px;
+}.editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border:2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; }
+  table.markup caption { text-align:left; }
+  div.faq p, div.faq pre { margin-left:2em; }
+  div.faq p.question { margin:1em 0 0.75em 0; font-weight:bold; }
+  div.faqtoc div.faq * { display:none; }
+  div.faqtoc div.faq p.question 
+    { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; line-height:normal; }
+  div.faqtoc div.faq p.question * { display:inline; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+
+--></style><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="I_Q%20Data%20for%20Dummies_files/blog2.css" type="text/css">
+</head>
+<body>
+<!--PageHeaderFmt-->
+<table id="bloghead" cellspacing="0" cellpadding="0" align="center"><tbody><tr>
+  <td id="homelink"><a href="http://whiteboard.ping.se/">Whiteboard Web</a></td>
+  <td id="wikicmds">  </td>
+</tr></tbody></table>
+<!--/PageHeaderFmt-->
+<table id="blogmid" cellspacing="0" cellpadding="0" align="center"><tbody><tr>
+  <td id="blogbody" valign="top">
+<!--PageTitleFmt-->
+    <div id="location"><span class="pagegroup"><a href="http://whiteboard.ping.se/SDR">SDR</a> »</span>
+    <h1 class="pagetitle">I/Q Data for Dummies</h1></div>
+<!--/PageTitleFmt--><!--PageTitleAltFmt--><!--/PageTitleAltFmt-->
+<!--PageText-->
+<div id="wikitext">
+<p class="vspace">This is a description of using I/Q Data (aka "analytic
+ signal") representing a signal. Since the topic may be quite confusing,
+ I've described the same thing here from different point of views. If 
+you find the information somewhat redundant, it is because it is. 
+Different views may appeal to different readers, and if something seems 
+unclear, keep on reading and it may be more comprehensible later - 
+hopefully.
+</p>
+<div class="vspace"></div><h2>Why I/Q Data?</h2>
+<p>I/Q Data is a signal representation much more precise than just using
+ a series of samples of the momentary amplitude of the signal. Have a 
+look at the following signal below.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/cosample.png" alt="Plain signal" title="Plain signal"></div>
+<p class="vspace">This is what you may be used to work with. So why I/Q Data - isn't this good enough?
+</p>
+<p class="vspace">Not really. We have a few problems here.
+</p>
+<div class="vspace"></div><ul><li>First, it is impossible to determine 
+the frequency of this signal. Sure, it looks simple enough, just look at
+ the period length? True, but you have no clue if it's a positive or 
+negative frequency since they both generate the same curve. I.e. cos(x) =
+ cos(-x). This becomes a problem working with the signal. Mixing 
+(multiplying) two signals and it'll cause multiple solutions due to the 
+uncertainty of the sign: f1 ⊗ f2 equals f1 + f2 as well as f1 - f2.
+<div class="vspace"></div></li><li>Second, it's hard to determine the 
+power (peak amplitude, envelope) of the signal. Basically you can only 
+see the peak amplitude here at 0°, 180°, 360° etc, and how do you know 
+the power is the same everywhere else as well? And did you sample the 
+signal exactly at its peak? You really don't know.
+</li></ul><p class="vspace">I/Q Data solves this. Instead of looking at 
+the signal as a flat curve as above, look at it as a corkscrew (helix, 
+spiral, coil spring) in three dimensions.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/corkscrew.png" alt="Complex signal" title="Complex signal"></div>
+<div class="vspace"></div><hr>
+<p class="vspace">Now if you look at this curve from the side, you'll 
+actually get the same graph as the first one above. Your "real" signal 
+actually is this 2D projection of this corkscrew signal. This is your 
+"I" in I/Q data.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/corkI.png" alt="Side view" title="Side view"></div>
+<div class="vspace"></div><hr>
+<p class="vspace">Now have a look at the corkscrew from above. This 
+looks quite similar, but as you see, it is out of phase 90°  starting at
+ zero, not at one as the other. This this the Q part of your I/Q data.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/corkQ.png" alt="Top view" title="Top view"></div>
+<div class="vspace"></div><hr>
+<p class="vspace">Now looking at the corkscrew down the time axis you'll
+ see it winds counter-clockwise. This means we know the frequency is 
+positive. It could have wound clockwise as well, still generating the 
+same I-signal (projection) but different Q-signal, representing a 
+negative frequency.
+</p>
+<p class="vspace">You also see that the radius of the corkscrew is 
+constant at every sample, if small in I large in Q and vice versa. The 
+radius is the peak amplitude of your signal. 
+</p>
+<p class="vspace">The axes are of course 90°, so the radius must be equal to (I²+Q²)<sup>1/2</sup>. This is the peak amplitude of your signal, and as you can see you know this for each and every sample.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/corkT.png" alt="Viewed down time axis" title="Viewed down time axis"></div>
+<div class="vspace"></div><h2>What is I/Q Data?</h2>
+<p>AS you now understand, the I/Q Data Sample is the coordinates of your signal as seen down the time axis of the corkscrew.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/onesample.png" alt="" title=""></div>
+<p class="vspace">You might object that your signal isn't a pure cosine 
+function as the one we have shown here, and it might be very true. 
+Still, every single sample of your signal can be described as such, i.e.
+ with a peak amplitude times cosine of some phase angle.
+</p>
+<div class="vspace"></div><div class="frame" style="width: 500px;"> 
+<p>Every single point of your signal can be described as the function A⋅cos(ϕ)
+</p></div>
+<p class="vspace">Since you may freely chose any amplitude A and angle ϕ
+ this must of course be true (as long as the signal is continuous). The 
+value of A⋅cos(ϕ) is the <strong>I</strong> component of the I/Q signal,
+ i.e. your real signal. Note that this only describes your signal in one
+ single point, i.e. one sample. Next sample gives you a new I and Q very
+ likely resulting in another amplitude and/or phase angle, reflecting 
+the modulation of the signal.
+</p>
+<div class="vspace"></div><h2>One sample I/Q Data</h2>
+<p>Ok, lets take one sample of I/Q Data and see what it represents. This is also called a phase vector, or phasor.
+</p>
+<div class="vspace"></div><pre class="escaped">I = 0.69
+Q = 0.40
+</pre>
+<p class="vspace">Lets draw this in the complex plane.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/iqdraw1.png" alt="" title=""></div>
+<p class="vspace">Lets see what this tells us about our data point.
+</p>
+<div class="vspace"></div><ul><li>The momentary amplitude of our real signal is by definition <strong>I</strong>, i.e. 0.69
+</li><li>Pythagoras tells us the amplitude A of the cosine wave is <code>(0.69²+0.40²)<sup>1/2</sup> = 0.8</code>
+</li><li>Trigonometry tells us our angle is +30° into our cosine wave.
+</li></ul><p class="vspace">- <em>Hold it</em>, you say, <em>what cosine wave?</em>
+</p>
+<p class="vspace">Well, I/Q actually assumes your real signal (<strong>I</strong>, that is) can be described as the
+function <strong>I</strong> = A⋅cos(ϕ)
+</p>
+<p class="vspace">Since you are free to chose A and ϕ this must of 
+course be true, as long the function is continuous. Remember we are 
+looking at one single sample now, i.e. one point in time.
+</p>
+<p class="vspace">So by using IQ Data we not only get the momentary 
+values of our signal, but the function generating it as well. If we put 
+above together we get:
+</p>
+<div class="vspace"></div><div class="frame" style="width: 225px;"> 
+<p>The real signal I = 0.8⋅cos(30°)
+</p></div>
+<div class="vspace"></div><hr>
+<div class="vspace"></div><ul><li>I/Q Data is the representation (data type) of this cosine function.
+</li></ul><p class="vspace">I/Q Data is the rectangular representation 
+of the polar notation we used above. There is a unique transformation 
+between the two, and the different notations have different properties 
+calculating with them. The rectangular form of I/Q Data is chosen due to
+ the ease of hardware implementations of the most common operations.
+</p>
+<p class="vspace">I/Q Data consists of I and Q represented as two 
+separate variables, a vector of length two, or more often, the complex 
+number  I + Q<em>i</em>  (yes, I is the real part).
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/polrep.png" alt="" title=""></div>
+<p class="vspace">Note that the Amplitude above is the waves peak amplitude, not the momentary amplitude.
+</p>
+<div class="vspace"></div><ul><li>I is the current momentary amplitude of the signal (i.e. the Real signal)
+</li><li>Q is the momentary amplitude of the signal phase shifted -90°.
+</li></ul><p class="vspace">For a simple function such as sine, the 
+phase shift is what the signal was earlier in time, but for a signal 
+with more than one sine component, Q reflects a -90° shift of the 
+individual components, and not the composite signal as such. To convert a
+ Real Signal to a I/Q Data Signal, discrete Fourier transformation is 
+required (Hilberts transform).
+</p>
+<div class="vspace"></div><h2>Different ways of representing the same I/Q Data Sample</h2>
+<p>There are at least three common ways to represent the I/Q Data 
+Sample. Different representations gives you different pros and cons. 
+Some are more easy to add, other are more easy to multiply etc. This may
+ be important in the implementation, resulting in less complex 
+hardware/software using the best representation.
+</p>
+<div class="vspace"></div><h3>The rectangular form</h3>
+<p>The I/Q Data on the form Q and I is called "rectangular" (or 
+"Cartesian") form as it can be viewed as positions in a coordinate 
+system. I and Q are the x and y axis respectively. This is the most 
+common representation you are used to. This form is most common due the 
+ease of modulating/demodulating it in hardware. More about that later.
+</p>
+<div class="vspace"></div><ul><li>As a complex number: I + Q<em>i</em>
+</li><li>As a vector [I,Q]
+</li><li>Or just the two plain variables I and Q
+</li></ul><div class="vspace"></div><h3>The polar form</h3>
+<ul><li>Amplitude and angle
+</li></ul><p class="vspace">I = Amplitude⋅cos(angle) <br>Q = Amplitude⋅sin(angle)
+</p>
+<p class="vspace">The Amplitude is the peak amplitude of the cos (and 
+sin) function, and the angle is how far into the period from zero to 
+360° you are (or 0 to 2π if you prefers radians).
+</p>
+<div class="vspace"></div><h3>Eulers form</h3>
+<p>Since cos(ϕ) + i⋅sin(ϕ) = e<sup>iϕ</sup> we can write our IQ sample as
+</p>
+<p class="vspace"><span style="font-size:120%"> Ae<sup>iϕ</sup> </span>
+</p>
+<p class="vspace">This might (not?) be the most intuitive representation
+ of the sample. ϕ rotates the angle as seen in the polar representation,
+ and A is of course the amplitude. Realizing this, Eulers identity 
+becomes obvious. Because ϕ is the rotation of the vector in the complex 
+plane, rotating it half a turn, 180° or π radians, results in a real 
+part of -1 and no imaginary part, hence:
+</p>
+<p class="vspace"><span style="font-size:120%"> e<sup>πi</sup>+1 = 0 </span>
+</p>
+<p class="vspace"><em>"The student should find this to be immediately obvious,</em> <br><em>otherwise he'll never be a first rate mathematician"</em>
+</p>
+<p class="vspace"><em>-- Carl Friedrich Gauss </em>
+</p>
+<p class="vspace"><a name="sign" id="sign"></a>
+</p><h2>Positive versus negative frequency</h2>
+<p>It is now easy to see that using I/Q we can represent the signal 
+frequency either as positive or negative. Have a look at the two I/Q 
+signals red and blue below to the left and compare them with their 
+corresponding real projections. It is as obvious they differ in signs in
+ I/Q, as it's impossible to determine the signs using only the real 
+signal component (neither the I nor the Q projection separately).
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/freqsign.gif" alt="Positive versus negative frequencies" title="Positive versus negative frequencies"></div>
+<p><span style="font-size:83%">(sidenote: I've put them slightly out of 
+phase compared to each other since else they wouldn't be possible to 
+distinguish at all in the real representation to the right. Also, please
+ note I'm here, quiet unconventional, using the x axis in the phasor for
+ the imaginary <strong>Q</strong>)</span>
+</p>
+<p class="vspace">The same signals (well, more or less) in a 3D representation.
+</p>
+<p class="vspace">The <strong>I</strong> components (side view):
+</p><div><img src="I_Q%20Data%20for%20Dummies_files/sign-i.png" alt="" title=""></div>
+<p class="vspace">The <strong>Q</strong> components (top view):
+</p><div><img src="I_Q%20Data%20for%20Dummies_files/sign-q.png" alt="" title=""></div>
+<p class="vspace">The I/Q signals in 3D:
+</p><div><img src="I_Q%20Data%20for%20Dummies_files/sign-3d.png" alt="" title=""></div>
+<p class="vspace"><a name="mixing" id="mixing"></a>
+</p><h2>Mixing and multiplying signals</h2>
+<p>Using real signals or IQ Signals gives different results when you 
+multiply them. This is because using only the real component it's not 
+possible to uniquely determine the phase angle of the signal, hence 
+impossible to distinguish a positive frequency from a negative.
+</p>
+<div class="vspace"></div><div><span class="rfloat"><img src="I_Q%20Data%20for%20Dummies_files/mix-real.png" alt="Mixing 10 kHz with 3 kHz using real" title="Mixing 10 kHz with 3 kHz using real"></span></div>
+<p>Multiplying two signals f1 and f2 in the real domain:
+</p>
+<p class="vspace"><span style="font-size:120%"> ±f1 ⊗ ±f2 = (±)f1 ± f2 </span>
+</p>
+<p class="vspace"><br><br>
+</p><div><span class="rfloat"><img src="I_Q%20Data%20for%20Dummies_files/mix-iq.png" alt="Mixing 10 kHz with 3 kHz using I/Q" title="Mixing 10 kHz with 3 kHz using I/Q"></span></div>
+<p>Using IQ Data the signs are now given, and the result unique:
+</p>
+<p class="vspace"><span style="font-size:120%"> f1 ⊗ f2 = f1 + f2 </span>
+</p>
+<p class="vspace"><br>
+A frequency spectrum in the real domain usually never show the negative 
+side, since it always must be symmetric around zero due to the 
+uncertainty of the sign of the frequency of the real signal -- hence the
+ parentheses around the sign of <code>f1</code> in the first formula 
+mixing the real signals. I've included the negative side here for 
+illustrative purposes, despite of its redundancy.
+</p>
+<p class="vspace">Multiplying two complex number is easiest understood 
+in the polar representation. The amplitude is multiplied and the angle 
+added.
+</p>
+<p class="vspace"><span style="font-size:120%"> A<sub>1</sub>⋅e<sup>iϕ<sub>1</sub></sup>⋅A<sub>2</sub> e<sup>iϕ<sub>2</sub></sup> = A<sub>1</sub>A<sub>2</sub> e<sup>i(ϕ<sub>1</sub>+ϕ<sub>2</sub>)</sup> </span>
+</p>
+<p class="vspace">Realizing the angle is added under multiplication makes it obvious that the frequencies are added as well.
+</p>
+<div class="vspace"></div><h3>And in time domain ...</h3>
+<p>Now let us have a look at this in time domain. To make it easier 
+(doable!) to calculate the DFT in our heads, we chose really simple 
+numbers. Let's mix <code>f</code> with <code>-f</code>. Using I/Q the result would be zero, not using I/Q, it would be zero and <code>2f</code> (and <code>-2f</code>, but in real it's no difference). Well, <code>2f</code>, since the zero (DC) component ... is zero, i.e. not there. I told you we'd use simple figures. :-)
+</p>
+<p class="vspace">Here we have <code>f</code> and <code>-f</code> as blue and red. Green is the product of the complex signals, and black is the product of the corresponding real signals.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/mixtime.gif" alt="" title=""></div>
+<p class="vspace">Right. Green is quite right zero in frequency, and the real signal black is very clearly <code>2f</code> (the DC component vanishes quite naturally in the real world).
+</p>
+<p class="vspace">Please ponder over the fact that the green mix of the 
+I/Q signals still got full amplitude despite of the fact that the 
+frequency is zero. This is perfectly possible representing a DC 
+component in I/Q like this, where the black DC component using real just
+ vanishes. Don't worry that the green mix isn't perfectly aligned to the
+ axis though, this is just because blue and red I/Q signals are slightly
+ out of phase.
+</p>
+<p class="vspace"><span style="font-size:69%"> (and yes, I'm using the y-axis for the real signal here) </span>
+</p>
+<div class="vspace"></div><h3>A more complex example</h3>
+<p>If we now look at the same signals as in the frequency domain above, 
+mixing 10 kHz (red) with 3 kHz (blue) we get the result using I/Q 
+(green) or using real (black) as seen below.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/mix10and3.gif" alt="" title=""></div>
+<p class="vspace">Worth noticing here, is that the I/Q mix (green) is a 
+pure sine wave of higher frequency, but the real mix (black) is clearly a
+ composite of several frequencies (10-3, 10+3), exactly as in seen the 
+frequency spectrum above.
+</p>
+<div class="vspace"></div><h2>RF Down Converting to I/Q Data</h2>
+<p>There is one fundamental difference between a baseband and modulated 
+RF signal. The modulated signal rides on a carrier of a given frequency,
+ but the base band signal got no fixed frequency at all. Because of 
+this, we have the possibility to encode the two-dimensional I/Q signal 
+onto the one-dimensional RF signal without losing anything. Magic!
+</p>
+<p class="vspace">The carrier of a given frequency got two parameters we
+ can change, its amplitude and phase. This is what we use to encode our 
+I/Q data. We can encode it on carrier of frequency f like this (t for 
+time):
+</p>
+<div class="vspace"></div><div class="frame" style="width: 350px;"> 
+<p>Modulated Carrier RF = I⋅cos(2πft) + Q⋅sin(2πft)
+</p></div>
+<p class="vspace">By adding a cosine with its corresponding sine 
+component of the same frequency (i.e. the carrier) we change the phase 
+and amplitude of the resulting RF signal. Transforming it back is as 
+easy.
+</p>
+<div class="vspace"></div><pre class="escaped">I = lowpass(RF⋅cos(2πft))
+Q = lowpass(RF⋅sin(2πft))
+</pre>
+<p class="vspace">Got it? The carrier has a predefined frequency, hence a
+ fixed phase as a reference. The baseband not, hence the need of 
+explicit representing the phase using two parameters.
+</p>
+<p class="vspace">Still even if this looks fine on paper, in reality the
+ phase may drift due to the fact that the senders and receivers 
+oscillators are never in perfect sync, but differs a little both in 
+phase and frequency. Therefor the senders I and Q may be out of phase 
+compared to the receivers I and Q, but the relative angle of I and Q is 
+always correct enough, as well as the amplitude.
+</p>
+<p class="vspace">Negative frequencies not a problem neither. Since the 
+carrier is of much higher frequency than the modulation, a negative 
+signal frequency still generates a positive carrier frequency. It's 
+first when you remove baseband from the carrier you'll need to have a 
+way of representing it negative again, i.e. using I/Q data.
+</p>
+<div class="vspace"></div><h2>Formulas</h2>
+<p>Some formulas calculating with I/Q Signals translating between polar and rectangular form etc.
+</p>
+<p class="vspace">Peak Amplitude A = (I²+Q²)<sup>½</sup>
+</p>
+<p class="vspace">Phase Angle ϕ = tan⁻¹(Q/I)
+</p>
+<p class="vspace">I = A⋅cos(ϕ)
+</p>
+<p class="vspace">Q = A⋅sin(ϕ)
+</p>
+<p class="vspace">Converting IQ Data to a plain signal: <strong>I</strong> is the original signal.
+</p>
+<p class="vspace">Euler form: A⋅e<sup>iϕ</sup> = A⋅(cos(ϕ) + i⋅sin(ϕ)) = I + Qi 
+</p><h2>Some Examples</h2>
+<p>The examples below may look quite pretty, but interpret them with a 
+grain of salt. The modulated carrier signal isn't actually represented 
+using I/Q data. More about how to derivate the I/Q data signal from the 
+non I/Q data modulated carrier later, once I've figured out a pedagogic 
+explanation. :-)
+</p>
+<div class="vspace"></div><h3>AM-modulation in IQ</h3>
+<div><img src="I_Q%20Data%20for%20Dummies_files/am3d.png" alt="" title=""></div>
+<p class="vspace">Same graph seen from side, i.e. only as I.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/am2d.png" alt="" title=""></div>
+<p class="vspace">The amplitude is given as (I²+Q²)<sup>½</sup> for every sample, i.e. even for samples with the real component I equals zero.
+</p>
+<div class="vspace"></div><hr>
+<div class="vspace"></div><h3>FM-modulation in IQ</h3>
+<div><img src="I_Q%20Data%20for%20Dummies_files/fm3d.png" alt="" title=""></div>
+<p class="vspace">Note that the amplitude is constant.
+</p>
+<p class="vspace">Same graph as seen from the side, i.e. as I only.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/fm2d.png" alt="" title=""></div>
+<div class="vspace"></div><hr>
+<div class="vspace"></div><h3>A little trickery</h3>
+<p>Have a look at the following signal in I (real) only.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/sign2d.png" alt="" title=""></div>
+<p class="vspace">Three parts, left, center and right. The frequency to 
+the left is about the same as the frequency to the right, right? Yes, if
+ you only got I, you can't tell the difference. But now look at the same
+ signal in I/Q.
+</p>
+<div class="vspace"></div><div><img src="I_Q%20Data%20for%20Dummies_files/sign3d.png" alt="" title=""></div>
+<p class="vspace">You see here that the signal changes its direction at 
+the center, i.e. goes from a positive frequency to a negative. To detect
+ this, you need to use I/Q. The real part I alone isn't enough. This is 
+why a signal in the real domain (I only) always is symmetric around zero
+ in the frequency domain. This is not the case with I/Q signals.
+</p>
+<p class="vspace"><a name="truesignal" id="truesignal"></a>
+</p><h2>I/Q - just a mathematical construction?</h2>
+<p>Sometimes I get the  objection: <em>"I/Q data is nice, but it's just a mathematical construction. The true signal is real"</em>.
+</p>
+<p class="vspace">I do not agree with this. I'd say the true signal is 
+complex, and the real signal is an incomplete projection of it. The true
+ signal do actually have the attributes phase and amplitude for each and
+ every sample (i.e. point in time). Hence the true signal is actually 
+not only complex, but three-dimensional: phase, amplitude and time. 
+</p>
+<p class="vspace">Look for example at the pendulum. Its oscillations can
+ be described as a signal. The energy of the pendulum oscillates between
+ potential energy and kinetic energy. At any given time, to represent 
+the state of the pendulum, you'll need to specify both its kinetic 
+energy as well as potential energy. The kinetic as well as the potential
+ energy are both very real (in both aspects) physical attributes of the 
+state of the pendulum.  If you leave one out, you really don't know 
+anything about the state of the pendulum at all. E.g. to estimate the 
+energy of the pendulum, you'd have to take a series of samples to find 
+out the maximum, precisely the same way you'd do finding out the 
+amplitude of a signal in real, etc. And keep in mind, if the signal is 
+modulated, i.e. non static, nothing guarantees the amplitude stays 
+constant in your series of samples.
+</p>
+<p class="vspace">The example above is not analogous to I/Q data - this example <strong>is</strong> I/Q data. Use <code>I</code> for kinetic energy and <code>Q</code> for potential energy, and there you are.
+</p>
+<div class="vspace"></div><h2>Terms used</h2>
+<ul><li><code>I</code> is the In-Phase signal component
+</li><li><code>Q</code> is the Quadrature signal component
+</li><li><code>i</code> is the mathematical constant <code>i</code> such as <code>i² = -1</code>
+</li><li><code>A</code> is used for peak amplitude, the envelope, of the signal
+</li><li><code>ϕ</code> (phi) is the phase angle
+</li><li><code>e</code> is the base for the natural logarithm ~2.71828
+</li><li><code>⊗</code> is the operation mixing frequencies
+</li><li><code>⋅</code> is the operation multiplication
+</li><li>"real" is used in contrast to I/Q, and not necessary the I component, but rather "real" as in "not complex" or "real number".
+</li><li><code>DC</code> for "direct current", the frequency zero.
+</li></ul><p class="vspace">Praxis is to represent <code>I</code> as <code>x</code> axis and <code>Q</code> as <code>y</code> axis in 2D diagrams, and <code>I</code> as real part and <code>Q</code>
+ as imaginary part of a complex number. I often deviates from this to 
+make the illustrations more easy to read. It is of no importance if you 
+interchange <code>I</code> and <code>Q</code>, the importance is that 
+they are orthogonal (90°) to each other, and using a complex 
+representation is only convenience as well, hence no importance if <code>Q</code> is "up" in one graph, and <code>I</code>
+ "up" in the next, or which one you happen to represent as the real 
+respectively imaginary part in the complex number, if using complex 
+representation at all.
+</p>
+<div class="vspace"></div><h2>About</h2>
+<p>Questions? Criticism? Praise? Other feedback? Send me a mail!
+</p>
+<p class="vspace">The animated GIFs here are generated using <a class="urllink" href="http://libgd.bitbucket.org/">libgd</a> and <a class="urllink" href="http://gcc.gnu.org/">gcc</a>, the graphs using <a class="urllink" href="http://www.gnuplot.info/">gnuplot</a> and the illustrations using <a class="urllink" href="http://www.openoffice.org/">OpenOffice</a>/<a class="urllink" href="http://www.libreoffice.org/">LibreOffice</a> Draw. One last picture is stolen from <a class="urllink" href="http://www.ni.com/white-paper/4805/en/">National Instruments</a>. Please visit <a class="urllink" href="http://www.ni.com/white-paper/4805/en/">their excellent I/Q data page</a> as well. No Mathematica was harmed during the creation of this page.
+</p>
+<p class="vspace">If this page looks bad, renders incorrect etc, consider upgrading your web browser.
+</p>
+<p class="vspace">If using images or other material from this web, please credit me by linking back to this page.
+</p>
+<p class="vspace">/By <a class="urllink" href="mailto:kuisma@ping.se">Mikael Q Kuisma</a>
+</p>
+</div>
+  </td>
+<!--PageRightFmt-->
+  <td id="blogright" valign="top">
+   <form action="http://whiteboard.ping.se">
+    <input name="n" value="SDR.IQ" type="hidden">
+    <input name="action" value="search" type="hidden">
+    <input name="q" value=" Search " class="inputbox searchbox" onfocus="if(this.value=' Search ') {this.value=''}" onblur="if(this.value=='') {this.value=' Search '}" type="text"><input class="inputbutton searchbutton" value="Go" type="submit"></form>
+<p class="sidehead"> <a class="wikilink" href="http://whiteboard.ping.se/Main/HomePage">Home</a>
+</p><ul><li><a class="wikilink" href="http://whiteboard.ping.se/Linux/Linux">GNU/Linux</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/Android/Android">Android</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/HackValue/HackValue">HackValue</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/Networking/Networking">Networking</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/Security/Security">Security</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/Propeller/Propeller">Propeller</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/MachineLearning/MachineLearning">Machine learning</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/SDR/SDR">SDR Radio</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/InSwedish/InSwedish">InSwedish</a>
+</li><li><a class="wikilink" href="http://whiteboard.ping.se/Ulva/Karta">Ulva</a>
+</li></ul><p class="vspace sidehead"> <a class="urllink" href="http://www.ping.se/">Ping site</a>
+</p><ul><li><a class="urllink" href="http://www.ping.se/ASDIC/Overview">ASDIC</a>
+</li></ul><p class="vspace"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</p>
+<div class="vspace"></div>
+
+  </td>
+<!--/PageRightFmt-->
+</tr></tbody></table>
+<!--PageFooterFmt-->
+<table id="blogfoot" cellspacing="0" cellpadding="0" align="center"><tbody><tr>
+  <td class="lastmod">Page last modified 2017-04-10 16:57Z</td>
+  <td class="footnav"><div style="text-align: right;"> 
+<p><a rel="nofollow" class="wikilink" href="http://whiteboard.ping.se/SDR/IQ#">^</a>
+</p></div>
+  </td>
+</tr></tbody></table>
+<!--/PageFooterFmt-->
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4180083; 
+var sc_invisible=1; 
+var sc_partition=48; 
+var sc_click_stat=1; 
+var sc_security="42cbc20c"; 
+</script>
+
+<script type="text/javascript" src="I_Q%20Data%20for%20Dummies_files/counter.js"></script><noscript><div
+ class="statcounter"><a title="hit counter" 
+href="http://www.statcounter.com/" target="_blank"><img 
+class="statcounter" src="http://c.statcounter.com/4180083/0/42cbc20c/1/"
+ alt="hit counter" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+
+</body></html>

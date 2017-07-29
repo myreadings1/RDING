@@ -18,3 +18,8 @@ http://www.indigresso.com/wiki/doku.php?id=opentag:radios:testing_with_gnuradio
 sudo sysctl -w kernel.shmmax=2147483648
 - B210 Overflow problem
 https://github.com/EttusResearch/uhd/issues/58
+
+- I Q Data
+---------
+- http://whiteboard.ping.se/SDR/IQ
+- http://www.ni.com/tutorial/4805/en/

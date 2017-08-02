@@ -73,3 +73,4 @@ Misc researchers:
 - http://www2.cs.uh.edu/~gnawali/
 - https://www.rcs.ei.tum.de/persons/kindt/
 - http://www.ws.binghamton.edu/fowler/
+- http://www.cs.bc.edu/~hjiang/

@@ -149,3 +149,17 @@ Basement construction
 RDING
 -----
 - https://www.google.com/#q=%D8%A7%D9%84%D8%B9%D9%8A%D8%B4+%D9%81%D9%8A+%D8%A7%D9%84%D8%BA%D8%B1%D8%A8+sistani&*
+
+IELTS
+------
+- http://ieltsliz.com/ielts-tips-conclusion-or-overview-for-writing-task-1/
+- http://ieltsliz.com/ielts-band-scores/
+- http://ieltsliz.com/writing-task-1-paragraphs/
+- http://ieltsliz.com/ielts-tips-conclusion-or-overview-for-writing-task-1/
+- https://www.youtube.com/watch?v=E3U1Y1jgGls
+- http://ieltsliz.com/ielts-model-bar-chart-band-score-9/
+- http://ieltsliz.com/ielts-bar-chart-tips-and-techniques-for-a-high-score/
+- http://ieltsliz.com/writing-task-1-paragraphs/
+- http://ieltsliz.com/ielts-line-graph-vocabulary/
+- http://ieltsliz.com/ielts-writing-task-1-band-scores/
+- http://ieltsliz.com/ielts-band-scores/

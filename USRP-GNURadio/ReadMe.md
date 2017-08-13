@@ -19,4 +19,4 @@ sudo sysctl -w kernel.shmmax=2147483648
 - B210 Overflow problem
 https://github.com/EttusResearch/uhd/issues/58
 
-- I Q Data 1) http://whiteboard.ping.se/SDR/IQ, 2) http://www.ni.com/tutorial/4805/en/
+- I Q Data 1) http://whiteboard.ping.se/SDR/IQ, 2) http://www.ni.com/tutorial/4805/en/, 3) http://www.fourier-series.com/IQMod/index.html

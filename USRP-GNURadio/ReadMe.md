@@ -19,5 +19,6 @@ http://www.indigresso.com/wiki/doku.php?id=opentag:radios:testing_with_gnuradio
 sudo sysctl -w kernel.shmmax=2147483648
 - B210 Overflow problem
 https://github.com/EttusResearch/uhd/issues/58
+Overflow problem can be solved by selecting a fast computer with fast HDD like SSD. 
 
 - I Q Data 1) http://whiteboard.ping.se/SDR/IQ, 2) http://www.ni.com/tutorial/4805/en/, 3) http://www.fourier-series.com/IQMod/index.html

@@ -2,6 +2,8 @@
 - See (https://www.youtube.com/watch?v=v7qjeUFxVwQ)
 - To explain aliasing, sampling, and low pass filter, voltage divider (all are related).. See (https://www.youtube.com/watch?v=KT_xYgjM7L8) see (https://www.youtube.com/watch?v=t3Ab9oDjaxE)
 - Low pass filter = anti-aliasing filter
+- Low pass filter = voltage divider (https://www.youtube.com/watch?v=PPJ4MQkfq5o)
+
 - Sampling BT signale:
 sudo ./rx_samples_to_file --type float --nsamps 2000000 --rate 2000000 --freq 2404000000 --gain 45 --bw 10000000 
 - gr-bluetooth:

@@ -23,6 +23,7 @@ Madison, Wisconsin
 - http://xyzhang.ece.wisc.edu/
 - http://pages.cs.wisc.edu/~suman/
 - http://pages.cs.wisc.edu/~ashok/
+- http://pages.cs.wisc.edu/~akella/
 
 U of Illinois 
 ---------------

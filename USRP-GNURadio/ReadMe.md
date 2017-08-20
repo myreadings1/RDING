@@ -1,4 +1,6 @@
 - Notes on Xlating FIR filter [see] (http://andrej-mohar.com/frequency-xlating-fir-filter-and-channeling-basics-in-gnuradio)
+- Xlating filter see (http://blog.sdr.hu/grblocks/xlating-fir.html)
+
 - See (https://www.youtube.com/watch?v=v7qjeUFxVwQ)
 - To explain aliasing, sampling, and low pass filter, voltage divider (all are related).. See (https://www.youtube.com/watch?v=KT_xYgjM7L8) see (https://www.youtube.com/watch?v=t3Ab9oDjaxE)
 - Low pass filter = anti-aliasing filter

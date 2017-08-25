@@ -75,3 +75,4 @@ Misc researchers:
 - https://www.rcs.ei.tum.de/persons/kindt/
 - http://www.ws.binghamton.edu/fowler/
 - http://www.cs.bc.edu/~hjiang/
+- http://www.maths.adelaide.edu.au/matthew.roughan/course/

@@ -76,3 +76,4 @@ Misc researchers:
 - http://www.ws.binghamton.edu/fowler/
 - http://www.cs.bc.edu/~hjiang/
 - http://www.maths.adelaide.edu.au/matthew.roughan/course/
+- https://www.cs.utah.edu/~jeffp/ (https://www.cs.utah.edu/~jeffp/teaching/cs5140/)

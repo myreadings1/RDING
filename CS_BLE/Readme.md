@@ -17,6 +17,39 @@ Data Transfer
 - https://e2e.ti.com/support/wireless_connectivity/bluetooth_low_energy/f/538/t/157081
 - https://github.com/adafruit/Adafruit_Python_BluefruitLE
 
+BLE Webs
+-----
+- http://www.gizmodo.co.uk/2017/07/bluetooth-mesh-is-going-to-be-a-big-deal-here-are-6-reasons-why-you-should-care/
+- https://www.ericsson.com/research-blog/bluetooth-scope-widens-mesh-specification/
+- https://www.iottechnews.com/news/2017/jul/18/bluetooth-ups-its-iot-cred-support-mesh-networking/
+- https://www.bluetooth.com/what-is-bluetooth-technology/why-build-with-bluetooth
+- https://blog.bluetooth.com/bluetooth-security-101
+- https://www.bluetooth.com/
+- https://www.bluetooth.com/what-is-bluetooth-technology
+- https://blog.bluetooth.com/exploring-bluetooth-5-going-the-distance
+
+BLE payments
+------
+- https://www.wirecard.com/products/mobile-payment/payment-with-mobile/ble/
+- https://www.mbankcard.com/bluetooth-mobile-payments/
+- https://www.mobilepaymentstoday.com/blogs/ble-vs-nfc-the-future-of-mobile-consumer-engagement-now-infographic/
+
+AES attack
+-----
+- https://www.google.com/search?q=aes+encryption+attack&oq=aes+encryption+att&gs_l=psy-ab.3.0.0j0i22i30k1.13447760.13458188.0.13460086.16.12.4.0.0.0.153.1086.9j3.12.0....0...1.1.64.psy-ab..0.16.1147...0i131k1j0i67k1j0i131i67k1.vf8_I0U4ffI
+
+- https://www.rsaconference.com/writable/presentations/file_upload/cryp-203.pdf
+- https://link.springer.com/chapter/10.1007%2F978-3-642-03356-8_14
+- http://www.webcitation.org/68GTcKdoD?url=http://research.microsoft.com/en-us/projects/cryptanalysis/aesbc.pdf
+- https://www.safaribooksonline.com/library/view/abusing-the-internet/9781491902899/
+- https://www.blackhat.com/docs/asia-14/materials/Dhanjani/Asia-14-Dhanjani-Abusing-The-Internet-Of-Things-Blackouts-Freakouts-And-Stakeouts.pdf
+- https://eprint.iacr.org/2011/449.pdf
+- https://link.springer.com/chapter/10.1007/978-3-642-25385-0_19
+- https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#cite_note-aesbc-3
+
+
+
+
 Notes:
 -------
 - If we use BT symbols with as nonzero coefficint, CS should work better than the proposed method in the CS paper. This is because they based on SNR. BT signal is has sparse representation, which fits CS approaches. 

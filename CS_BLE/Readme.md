@@ -49,6 +49,9 @@ AES attack
 - https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#cite_note-aesbc-3
 
 
+No. of pkts in BLE connection event
+----
+- Google search (ble number of packets in connection event)
 
 
 Notes:

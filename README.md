@@ -44,3 +44,7 @@ Misc
 - https://www.yahosein.com/vb/showthread.php?t=131456
 - http://www.yahosein.com/vb/showthread.php?t=131457
 - http://ar.lib.eshia.ir/
+
+شعر امير المؤمنين
+--
+- http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -77,3 +77,8 @@ Misc researchers:
 - http://www.cs.bc.edu/~hjiang/
 - http://www.maths.adelaide.edu.au/matthew.roughan/course/
 - https://www.cs.utah.edu/~jeffp/ (https://www.cs.utah.edu/~jeffp/teaching/cs5140/)
+
+BLE developers
+----
+- https://www.linkedin.com/in/mafaneh
+- https://www.novelbits.io/about-us/

@@ -17,6 +17,7 @@ U of Minnesota
 ------------------
 - http://www-users.cs.umn.edu/~tianhe/research.html
 - http://www-users.cs.umn.edu/~ksong/index.html
+- https://www.cs.umn.edu/people/faculty
 
 Madison, Wisconsin 
 -------
@@ -24,6 +25,7 @@ Madison, Wisconsin
 - http://pages.cs.wisc.edu/~suman/
 - http://pages.cs.wisc.edu/~ashok/
 - http://pages.cs.wisc.edu/~akella/
+- https://www.cs.wisc.edu/people/faculty
 
 U of Illinois 
 ---------------

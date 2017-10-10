@@ -165,3 +165,59 @@ IELTS
 - http://ieltsliz.com/ielts-band-scores/
 - https://www.ielts-exam.net/practice_tests/
 - https://www.ieltsessentials.com/global/prepare/practicebooks
+
+
+Reading List - Architecture
+----
+- [Architecture1] Saltzer, J., D. Reed, and D. Clark. "End-to-end Arguments in System Design." ACM Transactions on Computer Systems (TOCS) 2, no. 4 (1984): 195-206
+
+- [Architecture2] OpenFog Architecture Overview white paper, OpenFog Consortium; Zhang, Chiang, Fog and IoT: An Overview of Research Opportunities, IEEE Internet of Things Journal, 2016
+
+Sensor Networks (Sensornet)
+---
+- [Sensornet1] M. Buettner, G.V. Yee, E. Anderson and R. Han, X-MAC: a Short Preamble MAC Protocol for Duty-Cycled Wireless Sensor Networks, ACM SenSys 2006.
+
+- [Sensornet2] O. Chipara, C. Lu, T.C. Bailey and G.-C. Roman, Reliable Clinical Monitoring using Wireless Sensor Networks: Experience in a Step-down Hospital Unit, ACM Conference on Embedded Networked Sensor Systems (SenSys), 2010
+
+- [Sensornet3] Bharathan Balaji, Arka Bhattacharya, Gabriel Fierro, Jingkun Gao, Joshua Gluck, Dezhi Hong, Aslak Johansen, Jason Koh, Joern Ploennigs, Yuvraj Agarwal, Mario Berges, David Culler, Rajesh Gupta, Mikkel Baun Kjærgaard, Mani Srivastava, and Kamin Whitehouse. Brick: Towards a Unified Metadata Schema For Buildings. In Proceedings of the 3rd ACM International Conference on Systems for Energy-Efficient Built Environments (BuildSys '16). ACM.
+
+- [Sensornet4] Vikram Iyer, Vamsi Talla, Bryce Kellogg, Shyam Gollakota, Joshua R. Smith, Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices, SIGCOMM, August 2016
+
+ 
+
+Personal Area Network (PAN)
+-----
+- [PAN1] Wahhab Albazrqaoe, Jun Huang, Guoliang Xing, Practical Bluetooth Traffic Sniffing: Systems and Privacy Implications, The 14th International Conference on Mobile Systems, Applications, and Services (MobiSys), 2016
+
+- [PAN2] Ruogu Zhou, Guoliang Xing, nShield: A Noninvasive NFC Security System for Mobile Devices, The 11th International Conference on Mobile Systems, Applications, and Services (MobiSys), 2014
+
+- [PAN3] Lixin Shi, Zachary Kabelac, Dina Katabi, and David Perreault. 2015. Wireless Power Hotspot that Charges All of Your Devices. In Proceedings of the 21st Annual International Conference on Mobile Computing and Networking (MobiCom '15). ACM
+
+- [PAN4] Vincent Liu, Aaron Parks, Vamsi Talla, Shyamnath Gollakota, David Wetherall, Joshua R. Smith, Ambient Backscatter: Wireless Communication Out of Thin Air, SIGCOMM, August 2013
+
+ 
+
+Wide Area Network (WAN)
+---------
+- [WAN1] Junxian Huang, Feng Qian, Yihua Guo, Yuanyuan Zhou, Qiang Xu, Z. Morley Mao, Subhabrata Sen, and Oliver Spatscheck, An In-depth Study of LTE: Effect of Network Protocol and Application Behavior on Performance, Proceedings of ACM SIGCOMM 2013
+
+- [WAN2] Juha Petäjäjärvi, Konstantin Mikhaylov, Marko Pettissalo, Janne Janhunen, Jari Iinatti, Performance of a low-power wide-area network based on LoRa technology: Doppler robustness, scalability, and coverage, International Journal of Distributed Sensor Networks Vol 13, Issue 3;
+
+- Augustin, A.; Yi, J.; Clausen, T.; Townsley, W.M. A Study of LoRa: Long Range & Low Power Networks for the Internet of Things. Sensors 2016, 16, 1466
+
+
+Local Area Networks (LAN)
+------
+- [LAN1] V. Bharghavanet al., MACAW: A Media Access Protocol for Wireless LANs, Comput. Commun. Rev., vol. 24, no. 4, pp. 212-25, Oct. 1994.
+
+- [LAN2] David Kotz and Kobby Essien. Analysis of a campus-wide wireless network. In Proceedings of the 8th annual international conference on Mobile computing and networking (MobiCom), 2002.
+
+- [LAN3] Bryce Kellogg, Vamsi Talla, Shyam Gollakota, Joshua R. Smith, Passive Wi-Fi: Bringing Low Power to Wi-Fi Transmissions, NSDI, March 2016
+
+ 
+
+Network Layer (Network)
+------
+- [Network1] Paxson, V., End-to-End Routing Behavior in the Internet, IEEE/ACM Transactions on Networking 5, no. 5 (October 1997): 601-615.
+
+- [Network2] Richard Draves, Jitendra Padhye, Brian Zill. Comparison of Routing Metrics for Static Multi-hop Wireless Networks. ACM SIGCOMM 2004.

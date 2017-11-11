@@ -69,6 +69,10 @@ G Tech
 ------------
 - http://mdav.ece.gatech.edu/index.html
 
+South Florida
+------
+- http://csa.eng.usf.edu/publications/
+
 Misc researchers:
 -----------
 - https://scholar.google.at/citations?hl=de&user=xp74DqQAAAAJ&view_op=list_works

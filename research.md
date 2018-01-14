@@ -85,7 +85,13 @@ Misc researchers:
 - http://www.maths.adelaide.edu.au/matthew.roughan/course/
 - https://www.cs.utah.edu/~jeffp/ (https://www.cs.utah.edu/~jeffp/teaching/cs5140/)
 - http://www.phpathak.com/
+- http://www.halper.in/
+
 BLE developers
 ----
 - https://www.linkedin.com/in/mafaneh
 - https://www.novelbits.io/about-us/
+
+Peking University
+-----
+- http://ceca.pku.edu.cn/en/team.php?action=show&member_id=311

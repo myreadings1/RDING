@@ -86,6 +86,7 @@ Misc researchers:
 - https://www.cs.utah.edu/~jeffp/ (https://www.cs.utah.edu/~jeffp/teaching/cs5140/)
 - http://www.phpathak.com/
 - http://www.halper.in/
+- http://wimnet.ee.columbia.edu/publications/by-year/
 
 BLE developers
 ----

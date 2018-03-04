@@ -48,3 +48,6 @@ Misc
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420
+- 80211 reciver based on RF funnel. reuse the same channel and save bandwidth.
+- many ideas are there about multiple receivers
+- book about prob. in a better description. ;)

@@ -48,6 +48,8 @@ Misc
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420
-- 80211 reciver based on RF funnel. reuse the same channel and save bandwidth.
+- 80211 reciver based on RF funnel. reuse the same channel and save bandwidth. 
 - many ideas are there about multiple receivers
-- book about prob. in a better description. ;)
+- book about prob. with a better description. ;)
+- Is there any system that keeps analog signal in a circuit for a while? how to benefit from this capability?
+- Multi-standard receiver, like BT, Wi, Zig, GSM ... This radio is based on RF-Funn

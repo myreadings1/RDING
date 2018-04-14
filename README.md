@@ -45,6 +45,10 @@ Misc
 - http://www.yahosein.com/vb/showthread.php?t=131457
 - http://ar.lib.eshia.ir/
 
+Tech repor CSE
+----
+- http://www.cse.msu.edu/publications/tech/TR/
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

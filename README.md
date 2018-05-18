@@ -3,6 +3,7 @@ Nice courses:
 --------------
 - http://web.stanford.edu/class/ee360/resources.html
 - https://courses.engr.illinois.edu/ece498rc3/
+- https://github.com/bendrucker/columbia
 
 Nice projects:
 -----------

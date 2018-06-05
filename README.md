@@ -22,7 +22,13 @@ Articles:
 
 Wireless Comm., mobile computing, MIMO, etc
 -----------
+- http://web.stanford.edu/class/ee360/resources.html
 
+CAN
+----
+- https://github.com/linux-can/can-utils
+- https://bitbucket.org/DataspeedInc/dataspeed_can
+- candump ubuntu
 
 Python
 --------------

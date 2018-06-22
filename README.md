@@ -52,6 +52,16 @@ Misc
 - http://www.yahosein.com/vb/showthread.php?t=131457
 - http://ar.lib.eshia.ir/
 
+RT Linux
+-----
+- https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions
+- https://packages.debian.org/stretch/kernel/
+- http://wiki.ros.org/melodic/Installation/Debian
+- https://wiki.ubuntu.com/KernelTeam/GitKernelBuild
+- https://linuxmusicians.com/viewtopic.php?f=19&t=18536
+- https://wiki.ubuntu.com/RealTime
+
+
 Tech repor CSE
 ----
 - http://www.cse.msu.edu/publications/tech/TR/

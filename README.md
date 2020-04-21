@@ -66,6 +66,20 @@ Tech repor CSE
 ----
 - http://www.cse.msu.edu/publications/tech/TR/
 
+
+PHP Practice
+-----
+- Laravel
+- https://www.youtube.com/watch?v=xevIxUQ1SH4
+- https://askubuntu.com/questions/925072/unable-to-execute-the-laravel-command-laravel-new-myapp
+- https://getcomposer.org/download/
+- https://code.visualstudio.com/docs/?dv=linux64_deb
+- https://laravel.com/docs/7.x/installation
+- https://stackoverflow.com/questions/33767605/new-laravel-project-in-netbeans
+- https://computingforgeeks.com/how-to-install-java-14-on-ubuntu-debian/
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-laravel-with-lemp-on-ubuntu-18-04
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

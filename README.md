@@ -79,6 +79,15 @@ PHP Practice
 - https://computingforgeeks.com/how-to-install-java-14-on-ubuntu-debian/
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-laravel-with-lemp-on-ubuntu-18-04
 
+Software Design Pattrens
+-----
+- Question: Isn't MVC anti OOP?
+- https://softwareengineering.stackexchange.com/questions/168316/isnt-mvc-anti-oop
+- MVC works at a much higher level of abstraction than single objects, and in fact each of the three (model, view and controller) will typically consists of many objects that each have both data and behavior. That objects which encapsulate data and behavior are a good fundamental building block for programs in general doesn't mean it's the best pattern at all levels of abstraction and for all purposes.
+
+- OOP does not restrict interactions among objects that each have their own data and their own behavior. Think of an ant and an ant colony analogy: behavior of an individual ant (run around all day, bringing food) is different from behavior of the overall colony (find the most desirable place, make more ants). The MVC pattern describes the desired social structure of an ant colony, while OOP guides the design of individual ants.
+
+
 
 شعر امير المؤمنين
 --

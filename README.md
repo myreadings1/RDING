@@ -87,6 +87,28 @@ Software Design Pattrens
 
 - OOP does not restrict interactions among objects that each have their own data and their own behavior. Think of an ant and an ant colony analogy: behavior of an individual ant (run around all day, bringing food) is different from behavior of the overall colony (find the most desirable place, make more ants). The MVC pattern describes the desired social structure of an ant colony, while OOP guides the design of individual ants.
 
+MySQL Workbench vs MariaDB
+-----
+- https://stackoverflow.com/questions/22616861/can-i-use-mysql-workbench-to-create-mariadb
+- So my experiences are, yes you can use MySQL Workbench for MariaDB database designs.
+
+However I needed to change the "Default Target MySQL Version" to 5.7.
+
+This can be done by going to: Edit->Preferences in the menu. And finally to Modeling->MySQL.
+
+Since the latest MySQL version, v8.x, the SQL statements are not compatible with MariaDB statements (like creating an index). MariabDB creating an index on a table:
+
+INDEX `fk_rsg_sub_level_rsg_top_level1_idx` (`rgs_top_level_id` ASC)
+
+vs
+
+MySQL:
+
+INDEX `fk_rsg_sub_level_rsg_top_level1_idx` (`rgs_top_level_id` ASC) VISIBLE
+
+MariaDB can't handle this VISIBLE keyword in this example. Using an old MySQL Version, MySQL Workbench will forward engineer a compatible MariaDB SQL file.
+
+Currently (Oct 2019) the generated SQL_MODE output is still compatible with MariaDB. Just like InnoDB, which is also preferred when using MariaDB in most cases.
 
 
 شعر امير المؤمنين

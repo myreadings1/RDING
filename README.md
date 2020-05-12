@@ -147,6 +147,13 @@ HTTP defines a set of request methods to indicate the desired action to be perfo
 
 ![Query Parameters](https://github.com/myreadings1/RDING/blob/master/img/creating_query_strings1.png)
 
+View in Laravel
+--
+- Read here: https://laravel.com/docs/7.x/views
+Views may also be nested within subdirectories of the resources/views directory. "Dot" notation may be used to reference nested views. For example, if your view is stored at resources/views/admin/profile.blade.php, you may reference it like so:
+
+return view('admin.profile', $data);
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

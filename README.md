@@ -110,6 +110,14 @@ MariaDB can't handle this VISIBLE keyword in this example. Using an old MySQL Ve
 
 Currently (Oct 2019) the generated SQL_MODE output is still compatible with MariaDB. Just like InnoDB, which is also preferred when using MariaDB in most cases.
 
+Laravel
+----
+- URL: (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
+- Query parameters: https://howto.caspio.com/parameters/parameters-as-query-string-values/
+- HTTP Request: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+
+![Query Parameters](https://github.com/myreadings1/RDING/blob/master/img/creating_query_strings1.png)
 
 شعر امير المؤمنين
 --

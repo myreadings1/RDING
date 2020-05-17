@@ -112,8 +112,7 @@ Currently (Oct 2019) the generated SQL_MODE output is still compatible with Mari
 
 Laravel
 ----
-- URI
- What is URI
+- What is URI?
 URI stands for Uniform Resource Identifier. URI is a text which is used to identify any resource or name on Internet. URI has two specializations in the form of URL (Uniform Resource Locator) and URN (Uniform Resource Name) to identify resource and name. We mostly see examples of URL and URN in the real word. If you are working on JSP and familiar with using tag library e.g. display tag and JSTL core tag library, then you may remember the use of URI to locate binary corresponding to a tag library.
 
 Read more: https://www.java67.com/2013/01/difference-between-url-uri-and-urn.html#ixzz6MFlF9ptZ
@@ -121,8 +120,8 @@ Read more: https://www.java67.com/2013/01/difference-between-url-uri-and-urn.htm
 A URI (Uniform Resource Identifier) is a string that refers to a resource. The most common are URLs, which identify the resource by giving its location on the Web. URNs, by contrast, refer to a resource by a name, in a given namespace, such as the ISBN of a book.
 
 
-- URL: (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
-- What is URL
+- See: (https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
+- What is URL?
 URL standards for Uniform resource locator and it is a subset of URI or Uniform Resource Identifier. URL includes location as well as the protocol to retrieve the resource e.g. in http://java67.blogspot.sg/2012/09/what-is-new-in-java-7-top-5-jdk-7.html, HTTP is a protocol which can be used to retrieve resource what-is-new-in-java-7-top-5-jdk-7.html available in location http://java67.blogspot.com directory. It's not necessary that URL always include HTTP as protocol, it can use any protocol e.g. ftp://, https:// or ldap://.
 
 The most common form of URI is the Uniform Resource Locator (URL), which is known as the web address.
@@ -131,8 +130,7 @@ Read more: https://www.java67.com/2013/01/difference-between-url-uri-and-urn.htm
 Read more: https://skorks.com/2010/05/what-every-developer-should-know-about-urls/
 Read more: https://launchschool.com/books/http/read/what_is_a_url
 
-- URN
-What is URN
+- What is URN
 URN stands for Uniform Resource Name. URN is also the subset of URI. One of the best examples of URN is ISBN number which is used to uniquely identify a book. URN is completely different than URL as it doesn't include any protocol.
 
 Read more: https://www.java67.com/2013/01/difference-between-url-uri-and-urn.html#ixzz6MFlzCHDJ
@@ -153,6 +151,10 @@ View in Laravel
 Views may also be nested within subdirectories of the resources/views directory. "Dot" notation may be used to reference nested views. For example, if your view is stored at resources/views/admin/profile.blade.php, you may reference it like so:
 
 return view('admin.profile', $data);
+
+Multiple role-based authentication in Laravel
+----
+- See (https://dev.to/kaperskyguru/multiple-role-based-authentication-in-laravel-30pc)
 
 شعر امير المؤمنين
 --

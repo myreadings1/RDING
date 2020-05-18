@@ -152,6 +152,12 @@ Views may also be nested within subdirectories of the resources/views directory.
 
 return view('admin.profile', $data);
 
+- Problem: Laravel only loads the first index page and no other pages.
+- Solution: 
+$ sudo a2enmod rewrite
+$ sudo service apache2 restart
+Source: (https://askubuntu.com/questions/1012620/php-laravel-error-no-pages-are-found-except-index-page-in-laravel-deployed-on-l)
+
 Multiple role-based authentication in Laravel
 ----
 - See (https://dev.to/kaperskyguru/multiple-role-based-authentication-in-laravel-30pc)

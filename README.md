@@ -87,6 +87,10 @@ Software Design Pattrens
 
 - OOP does not restrict interactions among objects that each have their own data and their own behavior. Think of an ant and an ant colony analogy: behavior of an individual ant (run around all day, bringing food) is different from behavior of the overall colony (find the most desirable place, make more ants). The MVC pattern describes the desired social structure of an ant colony, while OOP guides the design of individual ants.
 
+Database concepts
+---
+- Many2Many relations https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=manymany.php
+
 MySQL Workbench vs MariaDB
 -----
 - https://stackoverflow.com/questions/22616861/can-i-use-mysql-workbench-to-create-mariadb

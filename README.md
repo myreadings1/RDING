@@ -166,6 +166,10 @@ Multiple role-based authentication in Laravel
 ----
 - See (https://dev.to/kaperskyguru/multiple-role-based-authentication-in-laravel-30pc)
 
+Installing composer
+----
+- See (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

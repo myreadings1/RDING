@@ -170,6 +170,32 @@ Installing composer
 ----
 - See (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04)
 
+Deploy Laravel on server
+-----
+- See (https://dev.to/asapabedi/deploying-laravel-5-applications-on-shared-hosting-without-the-use-of-ssh--16a6)
+- 1) Upload compressed file of the project, like drcharity3.zip.
+- 2) unzil the file outside the public_html folder (server).
+- 3) Move files in the public folder (Laravel) to the public_html folder (server). Other Larval project's file should be placed in some folder outside public_html. Example, we use a folder called (drcharity3).
+- 4) Edit index.php in the public_html (server) and change two lines as follows:
+.. 
+//require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../drcharity3/vendor/autoload.php';
+..
+//$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__.'/../drcharity3/bootstrap/app.php';
+
+- 5) On the server side, create a DB, then get (DB_Name, DB_Username, DB_Pass).
+- 6) On the server side, create a (.env) file, copy and paste content from (.env) file in your Laravel project; 
+- 7) Edit two files (.env) and config/database.php and change DB access parameters as shown in point (5) above.
+.. the database.php should looks like:
+          //'database' => env('DB_Name', 'forge'),
+            'database' => env('DB_Name','DB_Name'),
+            //'username' => env('DB_Username', 'forge'),
+            'username' => env('DB_Username','DB_Username'),
+            'password' => env('DB_Pass', 'DB_Pass'),
+
+- 8) You should be good to go!
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -200,6 +200,11 @@ TCPDF + Laravel
 -----
 - See (https://ourcodeworld.com/articles/read/233/how-to-generate-a-pdf-from-html-with-tcpdf-in-laravel)
 
+TCPDF ADD NEW FONT
+--------------
+- See (https://ourcodeworld.com/articles/read/601/how-to-implement-custom-fonts-in-tcpdf)
+- See (TCPDF_ADD_NEW_FONT.pdf)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

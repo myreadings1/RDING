@@ -196,6 +196,10 @@ $app = require_once __DIR__.'/../drcharity3/bootstrap/app.php';
 
 - 8) You should be good to go!
 
+TCPDF + Laravel
+-----
+- See (https://ourcodeworld.com/articles/read/233/how-to-generate-a-pdf-from-html-with-tcpdf-in-laravel)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

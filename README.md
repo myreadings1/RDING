@@ -224,6 +224,11 @@ Static and Fallback IP address
 --------------
 - See (https://wiki.archlinux.org/index.php/Dhcpcd#Fallback_static_profile)
 
+Install LAMP
+-----------
+- Install phpmyadmin (sudo apt install phpmyadmin)
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

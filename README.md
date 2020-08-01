@@ -200,6 +200,11 @@ $app = require_once __DIR__.'/../drcharity3/bootstrap/app.php';
 Laravel on local server
 ------
 - See (https://tecadmin.net/install-laravel-on-debian-9-stretch/)
+- See (https://stackoverflow.com/questions/31435283/laravel-5-only-root-route-works)..
+- Enable apache2 rewrite module:
+- sudo a2enmod rewrite
+- Then restart the apache2 server: sudo service apache2 restart
+-And make sure that AllowOverride All to your apache2 config file.
 
 
 TCPDF + Laravel

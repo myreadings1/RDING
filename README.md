@@ -196,6 +196,12 @@ $app = require_once __DIR__.'/../drcharity3/bootstrap/app.php';
 
 - 8) You should be good to go!
 
+
+Laravel on local server
+------
+- See (https://tecadmin.net/install-laravel-on-debian-9-stretch/)
+
+
 TCPDF + Laravel
 -----
 - See (https://ourcodeworld.com/articles/read/233/how-to-generate-a-pdf-from-html-with-tcpdf-in-laravel)

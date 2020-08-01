@@ -207,6 +207,10 @@ Laravel on local server
 -And make sure that AllowOverride All to your apache2 config file.
 
 
+RPI4 update
+-----
+- See (https://www.raspberrypi.org/documentation/hardware/raspberrypi/booteeprom.md)
+
 TCPDF + Laravel
 -----
 - See (https://ourcodeworld.com/articles/read/233/how-to-generate-a-pdf-from-html-with-tcpdf-in-laravel)

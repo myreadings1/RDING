@@ -228,6 +228,14 @@ Install LAMP
 -----------
 - Install phpmyadmin (sudo apt install phpmyadmin)
 
+HTML Date
+-----
+- See (https://stackoverflow.com/questions/6982692/how-to-set-input-type-dates-default-value-to-today)
+this works for me:
+
+document.getElementById('datePicker').valueAsDate = new Date();
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement
 
 شعر امير المؤمنين
 --

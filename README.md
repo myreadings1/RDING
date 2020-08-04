@@ -237,6 +237,10 @@ document.getElementById('datePicker').valueAsDate = new Date();
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement
 
+Group of checkboxed Laravel
+-----
+- See (https://laracasts.com/discuss/channels/laravel/how-can-i-delete-users-by-chosing-them-with-checkboxes)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

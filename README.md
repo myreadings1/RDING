@@ -241,6 +241,18 @@ Group of checkboxed Laravel
 -----
 - See (https://laracasts.com/discuss/channels/laravel/how-can-i-delete-users-by-chosing-them-with-checkboxes)
 
+In array check
+----
+- See ()
+$design_id = 'hc1wXBL7zCsdfMu';
+$list_desings_ids = array('hc1wXBL7zCsdfMu','dhdsfHddfD','otheridshere');
+
+if(in_array($design_id, $list_desings_ids))
+{
+  echo "Yes, design_id: $design_id exits in array";
+
+}
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -253,6 +253,10 @@ if(in_array($design_id, $list_desings_ids))
 
 }
 
+Popup Model Laravel
+----
+- See (https://medium.com/techiediaries-com/laravel-7-crud-tutorial-build-a-crud-app-with-mysql-and-bootstrap-4-4ed8e94f2db0)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

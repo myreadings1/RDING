@@ -257,6 +257,11 @@ Popup Model Laravel
 ----
 - See (https://medium.com/techiediaries-com/laravel-7-crud-tutorial-build-a-crud-app-with-mysql-and-bootstrap-4-4ed8e94f2db0)
 
+Git 
+--
+- clone local repo
+git clone C:\folder1 folder2
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

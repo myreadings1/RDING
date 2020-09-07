@@ -271,6 +271,9 @@ This is shorthand for:
 $ git branch iss53
 $ git checkout iss53
 
+Enable bootstrap
+---
+- See (https://www.positronx.io/how-to-properly-install-and-use-bootstrap-in-laravel/)
 
 شعر امير المؤمنين
 --

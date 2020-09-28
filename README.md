@@ -275,6 +275,10 @@ Enable bootstrap
 ---
 - See (https://www.positronx.io/how-to-properly-install-and-use-bootstrap-in-laravel/)
 
+Enable Bootstrap 4 RTL
+-----
+- See bootstrap file here ()
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

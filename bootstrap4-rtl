@@ -1,0 +1,64 @@
+# Install Boostrap 4 RTL for Laravel
+
+
+
+1. `npm uninstall --save-dev bootstrap-sass`
+
+2. `npm install --save-dev rtl-bootstrap popper.js`
+
+3. Find In __'resources/assets/js/bootstrap.js'__ and Replace
+
+```javascript
+try {
+    window.$ = window.jQuery = require('jquery');
+
+    require('bootstrap-sass');
+} catch (e) {}
+```
+```javascript
+try {
+    window.$ = window.jQuery = require('jquery');
+    window.Popper = require('popper.js');
+
+    require('rtl-bootstrap');
+} catch (e) {}
+```
+4. Find In __'resources/assets/sass/app.scss'__ and Replace
+
+```scss
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+```
+
+```scss
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~rtl-bootstrap/scss/bootstrap";
+```
+
+5. Find And Delete line in __'resources/assets/sass/\_variables.scss'__
+
+```scss
+$font-size-base: 14px;
+```
+
+6. Run `npm install`
+
+7. Run `npm run dev` or `npm run production` or `npm run watch`
+
+8. Enjoy and use Bootstrap4 RTL
+
+
+
+> Auther: __Hamid Nasr__ [Website](https://hamidne.ir)

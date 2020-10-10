@@ -279,6 +279,10 @@ Enable Bootstrap 4 RTL
 -----
 - See bootstrap file here ()
 
+Probability Books
+----
+- See this webside (https://github.com/manjunath5496/Probability-Books)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

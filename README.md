@@ -283,6 +283,10 @@ Probability Books
 ----
 - See this webside (https://github.com/manjunath5496/Probability-Books)
 
+Change raspberry pi pass 
+--
+- sudo passwd root
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

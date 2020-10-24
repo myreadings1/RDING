@@ -290,6 +290,7 @@ Change raspberry pi pass
 TP-Link 8 Linux Driver
 ---
 - See (https://github.com/Mange/rtl8192eu-linux-driver)
+- See (https://raspberrypi.stackexchange.com/questions/111359/how-to-install-tp-link-tl-wn823n-v2-on-rasperry-pi-2)
 
 شعر امير المؤمنين
 --

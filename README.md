@@ -287,6 +287,10 @@ Change raspberry pi pass
 --
 - sudo passwd root
 
+TP-Link 8 Linux Driver
+---
+- See (https://github.com/Mange/rtl8192eu-linux-driver)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

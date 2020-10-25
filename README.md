@@ -292,6 +292,9 @@ TP-Link 8 Linux Driver
 - See (https://github.com/Mange/rtl8192eu-linux-driver)
 - See (https://raspberrypi.stackexchange.com/questions/111359/how-to-install-tp-link-tl-wn823n-v2-on-rasperry-pi-2)
 
+axios normal request
+----
+- See (https://blog.bitsrc.io/requests-in-vuejs-fetch-api-and-axios-a-comparison-a0c13f241888)
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

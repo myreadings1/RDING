@@ -295,6 +295,8 @@ TP-Link 8 Linux Driver
 axios normal request
 ----
 - See (https://blog.bitsrc.io/requests-in-vuejs-fetch-api-and-axios-a-comparison-a0c13f241888)
+- See (https://gist.github.com/javilobo8/097c30a233786be52070986d8cdb1743)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -297,6 +297,12 @@ axios normal request
 - See (https://blog.bitsrc.io/requests-in-vuejs-fetch-api-and-axios-a-comparison-a0c13f241888)
 - See (https://gist.github.com/javilobo8/097c30a233786be52070986d8cdb1743)
 
+
+MariaDB allow remote connections
+---
+- Command (sudo nano 50-server.cnf ) on raspberry pi
+- See (https://webdock.io/en/docs/how-guides/how-enable-remote-access-your-mariadbmysql-database)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

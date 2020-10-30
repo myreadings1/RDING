@@ -303,6 +303,19 @@ MariaDB allow remote connections
 - Command (sudo nano 50-server.cnf ) on raspberry pi
 - See (https://webdock.io/en/docs/how-guides/how-enable-remote-access-your-mariadbmysql-database)
 
+Math readings:
+---
+- https://www.math.utah.edu/online/1010/radicals/
+- https://math.libretexts.org/Bookshelves/Algebra/Book%3A_Beginning_Algebra_(Redden)/01%3A_Real_Numbers_and_Their_Operations/1.06%3A_Exponents_and_Square_Roots
+- https://tutorial.math.lamar.edu/Classes/Alg/Radicals.aspx
+- https://www.mathsisfun.com/definitions/index-power-.html
+- http://www.amsi.org.au/teacher_modules/Rhombuses_Kites_and_Trapezia.html
+- http://www.math.niu.edu/~richard/Math101/logic.pdf
+- https://www.math.toronto.edu/preparing-for-calculus/3_logic/we_2_if_then.html
+- http://www.math.niu.edu/~richard/Math101/implies.pdf
+- https://faculty.math.illinois.edu/~vddries/main.pdf
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

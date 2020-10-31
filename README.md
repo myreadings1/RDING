@@ -315,6 +315,9 @@ Math readings:
 - http://www.math.niu.edu/~richard/Math101/implies.pdf
 - https://faculty.math.illinois.edu/~vddries/main.pdf
 
+Laravel search nested relation tables
+----
+- See (https://stackoverflow.com/questions/53278823/laravel-how-to-use-where-clause-on-both-parent-and-child-model-in-one-to-many-r)
 
 شعر امير المؤمنين
 --

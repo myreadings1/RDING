@@ -319,6 +319,12 @@ Laravel search nested relation tables
 ----
 - See (https://stackoverflow.com/questions/53278823/laravel-how-to-use-where-clause-on-both-parent-and-child-model-in-one-to-many-r)
 
+Filter query results
+---
+- See (https://stackoverflow.com/questions/31657851/filtering-laravel-eloquent-collections-with-filter-method)
+- See (https://laraveldaily.com/filtering-query-results-with-different-conditions-on-the-same-page/)
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -337,7 +337,7 @@ Components with Vuejs
 Sharing data between components
 --
 - See (https://www.smashingmagazine.com/2020/01/data-components-vue-js/)
-
+- See (https://stackoverflow.com/questions/48954191/how-can-i-access-child-component-data-from-a-parent-in-vue)
 
 شعر امير المؤمنين
 --

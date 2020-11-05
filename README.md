@@ -220,6 +220,10 @@ TCPDF ADD NEW FONT
 - See (https://ourcodeworld.com/articles/read/601/how-to-implement-custom-fonts-in-tcpdf)
 - See (TCPDF_ADD_NEW_FONT.pdf)
 
+TCPDF Custom Header and Footer
+----
+- See (https://laracasts.com/discuss/channels/laravel/custom-header-tcpdf-laravel-52)
+
 Static and Fallback IP address
 --------------
 - See (https://wiki.archlinux.org/index.php/Dhcpcd#Fallback_static_profile)

@@ -346,6 +346,10 @@ Sharing data between components
 - See (https://www.smashingmagazine.com/2020/01/data-components-vue-js/)
 - See (https://stackoverflow.com/questions/48954191/how-can-i-access-child-component-data-from-a-parent-in-vue)
 
+Watch changes in Parant component
+--
+- See (https://medium.com/js-dojo/component-communication-in-vue-js-ca8b591d7efa)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

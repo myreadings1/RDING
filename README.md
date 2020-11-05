@@ -331,6 +331,9 @@ Filter query results
 Q&A stackoverflow
 ---
 - See (https://stackoverflow.com/questions/64684677/laravel-searching-relationships-with-conditions-and-retrieving-the-records)
+- See (https://stackoverflow.com/questions/54984315/get-sum-of-nested-collection-failed-laravel-eloquent)
+- See (https://stackoverflow.com/questions/59008927/laravel-eloquent-sum-and-count-within-a-query-for-nested-relationships)
+- See (https://stackoverflow.com/questions/44330130/laravel-summing-an-attribute-in-a-nested-relation)
 
 Components with Vuejs
 ---

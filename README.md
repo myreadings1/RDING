@@ -324,6 +324,20 @@ Filter query results
 - See (https://stackoverflow.com/questions/31657851/filtering-laravel-eloquent-collections-with-filter-method)
 - See (https://laraveldaily.com/filtering-query-results-with-different-conditions-on-the-same-page/)
 
+Q&A stackoverflow
+---
+- See (https://stackoverflow.com/questions/64684677/laravel-searching-relationships-with-conditions-and-retrieving-the-records)
+
+Components with Vuejs
+---
+- See (https://stackoverflow.com/questions/51225378/how-to-watch-child-properties-changes-from-parent-component)
+- See explanation (https://dev.to/rolanddoda/8-secrets-vue-developers-must-know-5la)
+- See code (https://codesandbox.io/s/yk1l5zp9l9?file=/src/App.vue:121-152)
+
+Sharing data between components
+--
+- See (https://www.smashingmagazine.com/2020/01/data-components-vue-js/)
+
 
 شعر امير المؤمنين
 --

@@ -360,6 +360,9 @@ Partition DB Based on (years, months, and so on) to optimize search performance 
 - Related questions (https://laracasts.com/discuss/channels/general-discussion/better-way-to-create-db-connect-on-the-fly)
 
 
+Processing chunks in laravel
+--
+- See (https://laraveldaily.com/process-big-db-table-with-chunk-method/)
 
 شعر امير المؤمنين
 --

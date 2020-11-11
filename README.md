@@ -365,6 +365,9 @@ Processing chunks in laravel
 - See (https://stackoverflow.com/questions/39972653/laravel-chunk-method-using-eloquent)
 - See (https://laraveldaily.com/process-big-db-table-with-chunk-method/)
 
+Search how to switch between DB connections on the fly
+---
+- ???
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -350,6 +350,17 @@ Watch changes in Parant component
 --
 - See (https://medium.com/js-dojo/component-communication-in-vue-js-ca8b591d7efa)
 
+Partition DB Based on (years, months, and so on) to optimize search performance and reduce search time.
+--
+- See (https://stackoverflow.com/questions/11618277/difference-between-schema-database-in-mysql)
+- In MySQL, physically, a schema is synonymous with a database. You can substitute the keyword SCHEMA instead of DATABASE in MySQL SQL syntax, for example using CREATE SCHEMA instead of CREATE DATABASE. Some other database products draw a distinction. For example, in the Oracle Database product, a schema represents only a part of a database: the tables and other objects owned by a single user.
+
+- Create DB on the fly (https://stackoverflow.com/questions/42198046/laravel-change-connection-dynamically)
+- Switch DB connection on the fly (https://stackoverflow.com/questions/52278456/laravel-change-connection-in-model-for-one-method)
+- Related questions (https://laracasts.com/discuss/channels/general-discussion/better-way-to-create-db-connect-on-the-fly)
+
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

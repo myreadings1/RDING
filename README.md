@@ -367,9 +367,9 @@ Processing chunks in laravel
 
 Search how to switch between DB connections on the fly
 ---
-- ???
+- See(https://stackoverflow.com/questions/31847054/how-to-use-multiple-databases-in-laravel)
 
-Copy Bid DB files
+Copy Big DB files
 --
 - See (https://www.ozerov.de/bigdump/usage/)
 

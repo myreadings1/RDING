@@ -368,6 +368,11 @@ Processing chunks in laravel
 Search how to switch between DB connections on the fly
 ---
 - ???
+
+Copy Bid DB files
+--
+- See (https://www.ozerov.de/bigdump/usage/)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

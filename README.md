@@ -373,6 +373,7 @@ Search how to switch between DB connections on the fly
 Copy Big DB files
 --
 - See (https://www.ozerov.de/bigdump/usage/)
+- Using MySql cmd (https://www.digitalocean.com/community/tutorials/how-to-migrate-a-mysql-database-between-two-servers)
 
 شعر امير المؤمنين
 --

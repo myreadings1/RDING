@@ -374,6 +374,7 @@ Copy Big DB files
 --
 - See (https://www.ozerov.de/bigdump/usage/)
 - Using MySql cmd (https://www.digitalocean.com/community/tutorials/how-to-migrate-a-mysql-database-between-two-servers)
+- See MariabDB (https://mariadb.com/kb/en/mysqldump/)
 
 شعر امير المؤمنين
 --

@@ -380,6 +380,10 @@ JSON to JS_String
 ---
 - See (https://www.digitalocean.com/community/tutorials/js-json-parse-stringify)
 
+Passing data from Laravel to JSON
+---
+- See (https://dev.to/aschmelyun/four-ways-to-pass-data-from-laravel-to-vue-5d8m)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -376,6 +376,10 @@ Copy Big DB files
 - Using MySql cmd (https://www.digitalocean.com/community/tutorials/how-to-migrate-a-mysql-database-between-two-servers)
 - See MariabDB (https://mariadb.com/kb/en/mysqldump/)
 
+JSON to JS_String
+---
+- See (https://www.digitalocean.com/community/tutorials/js-json-parse-stringify)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -384,6 +384,10 @@ Passing data from Laravel to JSON
 ---
 - See (https://dev.to/aschmelyun/four-ways-to-pass-data-from-laravel-to-vue-5d8m)
 
+Nested Object with v-model
+---
+- See (https://simonkollross.de/posts/vuejs-using-v-model-with-objects-for-custom-components)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -388,6 +388,11 @@ Nested Object with v-model
 ---
 - See (https://simonkollross.de/posts/vuejs-using-v-model-with-objects-for-custom-components)
 
+Update Array and Object
+---
+- See (https://stackoverflow.com/questions/42807888/vuejs-and-vue-set-update-array)
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

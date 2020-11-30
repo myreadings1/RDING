@@ -388,9 +388,15 @@ Nested Object with v-model
 ---
 - See (https://simonkollross.de/posts/vuejs-using-v-model-with-objects-for-custom-components)
 
+v-model Object binding
+---
+- See (https://www.digitalocean.com/community/tutorials/vuejs-v-model-two-way-binding)
+
 Update Array and Object
 ---
 - See (https://stackoverflow.com/questions/42807888/vuejs-and-vue-set-update-array)
+
+
 
 
 شعر امير المؤمنين

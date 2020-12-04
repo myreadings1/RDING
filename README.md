@@ -400,6 +400,7 @@ Update Array and Object
 MySql Trigger ==> important
 --
 - See (https://dba.stackexchange.com/questions/170693/mysql-trigger-update-after-insert)
+- See (https://www.w3resource.com/mysql/mysql-triggers.php)
 
 شعر امير المؤمنين
 --

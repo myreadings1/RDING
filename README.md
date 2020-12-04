@@ -397,7 +397,9 @@ Update Array and Object
 - See (https://stackoverflow.com/questions/42807888/vuejs-and-vue-set-update-array)
 
 
-
+MySql Trigger ==> important
+--
+- See (https://dba.stackexchange.com/questions/170693/mysql-trigger-update-after-insert)
 
 شعر امير المؤمنين
 --

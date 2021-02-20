@@ -402,6 +402,10 @@ MySql Trigger ==> important
 - See (https://dba.stackexchange.com/questions/170693/mysql-trigger-update-after-insert)
 - See (https://www.w3resource.com/mysql/mysql-triggers.php)
 
+Laravel MVC classes and functions
+--
+- https://stackoverflow.com/questions/43863392/laravel-controller-model-exception-handling-structure-with-database-transactions
+
 Birds repeller
 --
 - https://www.hackster.io/sustainable-living-lab/automated-bird-repeller-system-for-farms-65a215

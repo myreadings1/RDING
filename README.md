@@ -402,6 +402,10 @@ MySql Trigger ==> important
 - See (https://dba.stackexchange.com/questions/170693/mysql-trigger-update-after-insert)
 - See (https://www.w3resource.com/mysql/mysql-triggers.php)
 
+Birds repeller
+--
+- https://www.hackster.io/sustainable-living-lab/automated-bird-repeller-system-for-farms-65a215
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

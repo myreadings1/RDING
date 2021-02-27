@@ -200,6 +200,7 @@ $app = require_once __DIR__.'/../drcharity3/bootstrap/app.php';
 Laravel on local server
 ------
 - See (https://tecadmin.net/install-laravel-on-debian-9-stretch/)
+- See (https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mariadb-php-lamp-stack-on-debian-10)
 - See (https://stackoverflow.com/questions/31435283/laravel-5-only-root-route-works)..
 - Enable apache2 rewrite module:
 - sudo a2enmod rewrite

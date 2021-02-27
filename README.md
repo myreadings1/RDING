@@ -207,7 +207,10 @@ Laravel on local server
 - Then restart the apache2 server: sudo service apache2 restart
 -And make sure that AllowOverride All to your apache2 config file.
 
-
+Multiple Domains on Debian/Apache2
+---
+- See (https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04)
+- 
 RPI4 update
 -----
 - See (https://www.raspberrypi.org/documentation/hardware/raspberrypi/booteeprom.md)

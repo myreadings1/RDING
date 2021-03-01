@@ -210,7 +210,11 @@ Laravel on local server
 Multiple Domains on Debian/Apache2
 ---
 - See (https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04)
-- 
+
+httacess Debian
+--
+- See (https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-apache-on-ubuntu-14-04)
+
 RPI4 update
 -----
 - See (https://www.raspberrypi.org/documentation/hardware/raspberrypi/booteeprom.md)

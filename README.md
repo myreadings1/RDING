@@ -418,6 +418,10 @@ Birds repeller
 --
 - https://www.hackster.io/sustainable-living-lab/automated-bird-repeller-system-for-farms-65a215
 
+Change RPi4 Mirror
+----
+- See (https://pimylifeup.com/raspbian-repository-mirror/)
+- 
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

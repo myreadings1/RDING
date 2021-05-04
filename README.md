@@ -421,7 +421,11 @@ Birds repeller
 Change RPi4 Mirror
 ----
 - See (https://pimylifeup.com/raspbian-repository-mirror/)
-- 
+
+RPi4 to wireless router
+---
+- See (https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

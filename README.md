@@ -426,6 +426,10 @@ RPi4 to wireless router
 ---
 - See (https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md)
 
+rfkill RPi3
+----
+- See (https://www.raspberrypi.org/forums/viewtopic.php?t=206223)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

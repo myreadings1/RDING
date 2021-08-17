@@ -430,6 +430,19 @@ rfkill RPi3
 ----
 - See (https://www.raspberrypi.org/forums/viewtopic.php?t=206223)
 
+
+PHP Versions
+----
+-- ------------ Set Default PHP Version 7.0 ------------
+$ sudo update-alternatives --set php /usr/bin/php7.0
+
+
+- Check PHP versions
+- sudo update-alternatives --list php
+- cd /etc/php 
+- dir 
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

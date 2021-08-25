@@ -442,7 +442,10 @@ $ sudo update-alternatives --set php /usr/bin/php7.0
 - cd /etc/php 
 - dir 
 
-
+Install LAMP Ubuntu 18.04
+----
+- See (https://websiteforstudents.com/install-phpmyadmin-on-ubuntu-20-04-18-04-with-apache/)
+- 
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

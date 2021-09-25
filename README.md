@@ -452,7 +452,8 @@ Nice Article Async function vs await
 - Fetch API see (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 -Object javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 
-
+- Open new window VueJS see (https://stackoverflow.com/questions/49657462/open-a-vuejs-component-on-a-new-window)
+- 
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -454,7 +454,12 @@ Nice Article Async function vs await
 
 - Open new window VueJS see (https://stackoverflow.com/questions/49657462/open-a-vuejs-component-on-a-new-window)
 - Await with axios see (https://stackoverflow.com/questions/50437420/how-to-use-async-await-in-get-request-using-vue-axios)
-- 
+
+Laravel Fillable fields
+---
+- See (https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel) 
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

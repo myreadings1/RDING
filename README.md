@@ -445,7 +445,14 @@ $ sudo update-alternatives --set php /usr/bin/php7.0
 Install LAMP Ubuntu 18.04
 ----
 - See (https://websiteforstudents.com/install-phpmyadmin-on-ubuntu-20-04-18-04-with-apache/)
-- 
+
+Nice Article Async function vs await
+----
+- See (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+- Fetch API see (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+-Object javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -448,6 +448,7 @@ Install LAMP Ubuntu 18.04
 
 Nice Article Async function vs await
 ----
+- using Async and await is really important when dealing with DB on network.
 - See (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 - Fetch API see (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 -Object javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)

@@ -466,6 +466,7 @@ Calculator with VueJS
 
 Open new window with VueJS
 ---
+- See (https://stackoverflow.com/questions/49657462/open-a-vuejs-component-on-a-new-window)
 - See (https://codesandbox.io/s/vue-template-forked-jsodr?file=/src/components/HelloWorld.vue:0-2459)
 
 

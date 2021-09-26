@@ -464,6 +464,10 @@ Calculator with VueJS
 ---
 - See (https://github.com/codyseibert/vue-calculator/blob/master/src/components/Calculator.vue)
 
+Open new window with VueJS
+---
+- See (https://codesandbox.io/s/vue-template-forked-jsodr?file=/src/components/HelloWorld.vue:0-2459)
+
 
 شعر امير المؤمنين
 --

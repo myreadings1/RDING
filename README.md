@@ -460,6 +460,10 @@ Laravel Fillable fields
 ---
 - See (https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel) 
 
+Calculator with VueJS
+---
+- See (https://github.com/codyseibert/vue-calculator/blob/master/src/components/Calculator.vue)
+
 
 شعر امير المؤمنين
 --

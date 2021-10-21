@@ -472,7 +472,7 @@ Open new window with VueJS
 Install multiple domain on a single Debian Serve
 ---
 - See (https://www.atlantic.net/vps-hosting/set-up-multiple-wordpress-sites-on-single-vps/?__cf_chl_captcha_tk__=pmd_9ZRJ7wygXzkvKVqppg1.vDHW7mpOHOGCaDm_E0KuhME-1634784384-0-gqNtZGzNAxCjcnBszQg9)
-- 
+- See (https://www.osradar.com/install-wordpress-debian-10/#ixzz74pYg8M8Z)
 
 شعر امير المؤمنين
 --

@@ -469,6 +469,10 @@ Open new window with VueJS
 - See (https://stackoverflow.com/questions/49657462/open-a-vuejs-component-on-a-new-window)
 - See (https://codesandbox.io/s/vue-template-forked-jsodr?file=/src/components/HelloWorld.vue:0-2459)
 
+Install multiple domain on a single Debian Serve
+---
+- See (https://www.atlantic.net/vps-hosting/set-up-multiple-wordpress-sites-on-single-vps/?__cf_chl_captcha_tk__=pmd_9ZRJ7wygXzkvKVqppg1.vDHW7mpOHOGCaDm_E0KuhME-1634784384-0-gqNtZGzNAxCjcnBszQg9)
+- 
 
 شعر امير المؤمنين
 --

@@ -479,6 +479,10 @@ Install PHP7.4
 - See (https://dev.to/sroehrl/install-php-7-4-on-ubuntu-584)
 
 
+Binary Calculator
+----
+- See (https://www.exploringbinary.com/binary-calculator/)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -483,6 +483,11 @@ Binary Calculator
 ----
 - See (https://www.exploringbinary.com/binary-calculator/)
 
+Oracle Linux 8 Security
+----
+- See (https://github.com/icyb3r-code/DBAdmin/tree/main/Oracle/Install_Oracle19c_SingleInstance)
+- 
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

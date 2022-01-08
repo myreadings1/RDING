@@ -520,3 +520,5 @@ Oracle DB
 - book about prob. with a better description. ;)
 - Is there any system that keeps analog signal in a circuit for a while? how to benefit from this capability?
 - Multi-standard receiver, like BT, Wi, Zig, GSM ... This radio is based on RF-Funn
+- https://medium.com/geekculture/oracle-database-19c-installation-on-linux-e184dde4ce03
+- 

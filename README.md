@@ -500,6 +500,13 @@ Oracle DB
 - https://docs.oracle.com/en/database/oracle/oracle-database/18/ladbi/database-installation-guide-linux.pdf
 - https://community.oracle.com/tech/apps-infra/discussion/4479919/where-are-php-7-4-updates-in-oracle-linux-8
 - Search install php 7.4 oracle linux 8
+- https://docs.oracle.com/en/operating-systems/oracle-linux/8/security/index.html
+- https://www.youtube.com/results?search_query=oracle+linux+web+server
+- https://docs.oracle.com/en/operating-systems/oracle-linux/8/security/F22907.pdf
+- https://docs.oracle.com/en/operating-systems/oracle-linux/8/security/hardening-guidelines.html
+- https://docs.oracle.com/en/operating-systems/oracle-linux/8/security/understand-sec.html
+- https://yum.oracle.com/oracle-linux-php.html#Installation
+- https://techviewleo.com/how-to-install-lamp-stack-on-oracle-linux/
 - 
 
 شعر امير المؤمنين

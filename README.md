@@ -512,6 +512,11 @@ Oracle DB
 - https://blogs.oracle.com/linux/post/oracle-linux-8-kernel-based-virtual-machine-kvm-virtualization-made-easy-with-short-training-videos
 - https://apexapps.oracle.com/pls/apex/f?p=44785:24:5007034983525:PRODUCT:::P24_CONTENT_ID,P24_PREV_PAGE,P24_PROD_SECTION_GRP_ID:28812,141,11264
 
+Install Google Chrome on Oracle Linux 8
+---
+- See (https://computingforgeeks.com/how-to-install-google-chrome-on-rhel-centos-8/)
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

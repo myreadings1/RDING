@@ -488,6 +488,20 @@ Oracle Linux 8 Security
 - See (https://github.com/icyb3r-code/DBAdmin/tree/main/Oracle/Install_Oracle19c_SingleInstance)
 - 
 
+Oracle DB
+---
+- Apache (https://docs.oracle.com/en/operating-systems/oracle-linux/8/obe-apache-install/#before-you-begin)
+- https://oracle-base.com/articles/mysql/install-phpmyadmin-on-linux
+- https://oracle-base.com/articles/19c/oracle-db-19c-installation-on-oracle-linux-8#Installation
+- https://oracle-base.com/articles/19c/minimum-viable-oracle-database-19c-installation-on-ol8
+- https://github.com/icyb3r-code/DBAdmin/tree/main/Oracle/Install_Oracle19c_SingleInstance
+- https://www.openwaygroup.com/way4-release-news-blog/2018/4/19/workbenches-update
+- https://www.youtube.com/watch?v=Fe3y-QstF0w
+- https://docs.oracle.com/en/database/oracle/oracle-database/18/ladbi/database-installation-guide-linux.pdf
+- https://community.oracle.com/tech/apps-infra/discussion/4479919/where-are-php-7-4-updates-in-oracle-linux-8
+- Search install php 7.4 oracle linux 8
+- 
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

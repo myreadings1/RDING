@@ -507,7 +507,10 @@ Oracle DB
 - https://docs.oracle.com/en/operating-systems/oracle-linux/8/security/understand-sec.html
 - https://yum.oracle.com/oracle-linux-php.html#Installation
 - https://techviewleo.com/how-to-install-lamp-stack-on-oracle-linux/
-- 
+
+- KVM
+- https://blogs.oracle.com/linux/post/oracle-linux-8-kernel-based-virtual-machine-kvm-virtualization-made-easy-with-short-training-videos
+- https://apexapps.oracle.com/pls/apex/f?p=44785:24:5007034983525:PRODUCT:::P24_CONTENT_ID,P24_PREV_PAGE,P24_PROD_SECTION_GRP_ID:28812,141,11264
 
 شعر امير المؤمنين
 --

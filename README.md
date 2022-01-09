@@ -520,6 +520,9 @@ Install Google Chrome on Oracle Linux 8
 ---
 - See (https://computingforgeeks.com/how-to-install-google-chrome-on-rhel-centos-8/)
 
+Install ORAcle DB19 on OL8
+---
+- See (https://medium.com/geekculture/oracle-database-19c-installation-on-linux-e184dde4ce03)
 
 شعر امير المؤمنين
 --

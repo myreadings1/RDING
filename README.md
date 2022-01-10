@@ -529,6 +529,8 @@ Add DB Oracle DB19 on OL8.5
 - See (https://docs.oracle.com/en/database/oracle/oracle-database/tutorial-create-advanced-container-db/index.html?opt-release-19c)
 - See (https://docs.oracle.com/cd/B10501_01/network.920/a96580/listener.htm)
 
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

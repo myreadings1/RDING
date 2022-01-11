@@ -532,7 +532,7 @@ Add DB Oracle DB19 on OL8.5
 Listner Security
 ---
 - See (http://www.dba-oracle.com/t_blocking_listener_ip_addresses.htm)
-- 
+- See (https://oracle-base.com/articles/12c/multitenant-connecting-to-cdb-and-pdb-12cr1#switching-between-containers)
 
 شعر امير المؤمنين
 --

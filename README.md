@@ -523,6 +523,7 @@ Install Google Chrome on Oracle Linux 8
 Install ORAcle DB19 on OL8
 ---
 - See (https://medium.com/geekculture/oracle-database-19c-installation-on-linux-e184dde4ce03)
+- See (https://docs.oracle.com/en/industries/communications/session-report-manager/8.2/installation-19c/rpm-uninstall-oracle-database-1.html)
 
 Add DB Oracle DB19 on OL8.5
 ---

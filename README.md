@@ -535,6 +535,12 @@ Listner Security
 - See (http://www.dba-oracle.com/t_blocking_listener_ip_addresses.htm)
 - See (https://oracle-base.com/articles/12c/multitenant-connecting-to-cdb-and-pdb-12cr1#switching-between-containers)
 
+Oracle Free Services
+---
+- See (https://www.youtube.com/watch?v=yWVD6qmQrb8)
+
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

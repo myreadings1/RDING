@@ -9,6 +9,10 @@ Prerequisites and
 Start Listener
 Stop Listener
 
+Linux Sys Config
+---
+
+
 Start ODB
 ----
 - 1)
@@ -16,3 +20,9 @@ Start ODB
 Stop ODB
 ----
 - 2)
+
+
+Network Connections
+----
+- Listener
+- tnsnames

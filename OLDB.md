@@ -111,7 +111,7 @@ STARTUP FORCE;
 ALTER PLUGGABLE DATABASE ALL OPEN;
 ```
 
-- Run the command below to connect to PDB1.
+- Run the command below to connect to ORCLPDB.
 
 ```ruby
 ALTER SESSION SET container=ORCLPDB;

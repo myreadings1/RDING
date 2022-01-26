@@ -52,8 +52,10 @@ PATH=$PATH:$HOME/.local/bin:$ORACLE_HOME/bin
 
 export PATH
 
-
 ```
+- The bash file should look like as follow:
+
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/bash_config.png )
 
 
 Start Listener

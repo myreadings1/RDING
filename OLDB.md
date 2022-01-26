@@ -15,6 +15,22 @@ Prerequisites and dependencies
 yum install -y oracle-database-preinstall-19c
 ```
 
+
+Operating System Configuration 
+---
+1- Creating an Oracle home directory
+
+```ruby
+mkdir -p /u01/app/oracle/product/19.3/db_home
+chown -R oracle:oinstall /u01
+chmod -R 775 /u01
+```
+
+
+
+
+
+
 Start Listener
 ---
 
@@ -32,18 +48,6 @@ Images
 
 
 Stop Listener
-
-Linux Sys Config
----
-1- Creating an Oracle home directory
-
-```ruby
-mkdir -p /u01/app/oracle/product/19.3/db_home
-chown -R oracle:oinstall /u01
-chmod -R 775 /u01
-```
-
-
 
 Start ODB
 ----

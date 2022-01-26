@@ -24,7 +24,8 @@ yum install -y oracle-database-preinstall-19c
 ```
 
 
-Installing the database
+Installing the database commands:
+---
 
 
 ```ruby
@@ -100,6 +101,25 @@ Start Oracle Database
 sqlplus "/ AS SYSDBA"
 ```
 
+```ruby
+STARTUP FORCE;
+```
+
+- Run the command below to open-up our container database.
+
+```ruby
+ALTER PLUGGABLE DATABASE ALL OPEN;
+```
+
+- Run the command below to connect to PDB1.
+
+```ruby
+ALTER SESSION SET container=ORCLPDB;
+```
+
+
+
+
 Images
 ----
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
@@ -114,9 +134,10 @@ Images
 
 Stop Listener
 
-Start ODB
+Start Oracle Database
 ----
-- 1)
+- Open a new terminal and type the following command:
+
 
 Stop ODB
 ----

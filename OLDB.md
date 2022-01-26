@@ -20,7 +20,7 @@ Start Listener
 
 Start Oracle Database
 ---
-1- Open Linux teminal to login to SQLPlus database (i.e. the Oracle Database), and type the following in the command line:
+1- Open Linux teminal to Login to SQLPlus database (i.e. the Oracle Database), and type the following in the command line:
 
 ```ruby
 sqlplus "/ AS SYSDBA"
@@ -36,9 +36,12 @@ Stop Listener
 Linux Sys Config
 ---
 1- Creating an Oracle home directory
+
+```ruby
 mkdir -p /u01/app/oracle/product/19.3/db_home
 chown -R oracle:oinstall /u01
 chmod -R 775 /u01
+```
 
 
 

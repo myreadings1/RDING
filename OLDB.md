@@ -130,8 +130,6 @@ Images
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/ODB_folder.png )
 
 
-
-
 Stop Listener
 
 Start Oracle Database
@@ -141,7 +139,16 @@ Start Oracle Database
 
 Stop ODB
 ----
-- 2)
+- Shutdown database
+
+```ruby
+shutdown normal;
+```
+
+```ruby
+shutdown abort;
+```
+
 
 
 Network Connections

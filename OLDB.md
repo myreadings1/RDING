@@ -44,9 +44,10 @@ sqlplus "/ AS SYSDBA"
 
 Images
 ----
-![Tis is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
 
 
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/ODB_Folder_Creation.png )
 Stop Listener
 
 Start ODB

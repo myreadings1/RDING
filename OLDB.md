@@ -19,7 +19,6 @@ yum install -y oracle-database-preinstall-19c
 Installing the database
 
 
-
 ```ruby
 cd $ORACLE_HOME
 unzip -qo /home/oracle/Downloads/LINUX.X64_193000_db_home.zip
@@ -99,6 +98,12 @@ Images
 
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/ODB_Folder_Creation.png )
+
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/ODB_folder.png )
+
+
+
+
 Stop Listener
 
 Start ODB

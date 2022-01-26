@@ -29,9 +29,11 @@ chmod -R 775 /u01
 
 2- Bash configuration
 
+Open a new terminal and type the following command:
 
-
+```ruby
 vi .bash_profile
+```
 
 ```ruby
 # .bash_profile# Get the aliases and functions

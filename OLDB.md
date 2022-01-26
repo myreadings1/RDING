@@ -6,8 +6,10 @@ ODB Installation Steps
 ----
 Prerequisites and dependencies
 1- Dependencies 
-yum install -y oracle-database-preinstall-19c
 
+'''
+yum install -y oracle-database-preinstall-19c
+'''
 
 Start Listener
 Stop Listener

@@ -5,7 +5,9 @@ OL8.5 Installation
 ODB Installation Steps
 ----
 Prerequisites and dependencies
-1- Dependencies 
+----
+
+- Installing dependencies 
 
 
 ```ruby

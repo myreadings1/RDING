@@ -16,6 +16,15 @@ yum install -y oracle-database-preinstall-19c
 ```
 
 
+Installing the database
+
+
+
+```ruby
+cd $ORACLE_HOME
+unzip -qo /home/oracle/Downloads/LINUX.X64_193000_db_home.zip
+```
+
 Operating System Configuration 
 ---
 1- Creating an Oracle home directory

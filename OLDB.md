@@ -7,17 +7,23 @@ ODB Installation Steps
 Prerequisites and dependencies
 1- Dependencies 
 
-'''
-yum install -y oracle-database-preinstall-19c
-'''
 
 ```ruby
 yum install -y oracle-database-preinstall-19c
-
 ```
 
 
 Start Listener
+---
+1- Open Linux teminal to login to SQLPlus database (i.e. the Oracle Database), and type the following in the command line:
+
+```ruby
+sqlplus "/ AS SYSDBA"
+```
+
+
+
+
 Stop Listener
 
 Linux Sys Config

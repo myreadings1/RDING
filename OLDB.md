@@ -5,6 +5,14 @@ Oracle Linux 8.5 Operating System Installation
 Oracle Database 19c Installation Steps
 ----
 
+
+
+```ruby
+#For GUI installation
+./runInstaller
+
+```
+
 Prerequisites and dependencies
 ----
 

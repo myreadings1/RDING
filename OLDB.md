@@ -1,6 +1,6 @@
 Oracle Linux 8.5 Operating System Installation
 -----
-
+- Coming soon ...
 
 Oracle Database 19c Installation Steps
 ----

@@ -12,8 +12,10 @@ Prerequisites and dependencies
 yum install -y oracle-database-preinstall-19c
 ```
 
-
 Start Listener
+---
+
+Start Oracle Database
 ---
 1- Open Linux teminal to login to SQLPlus database (i.e. the Oracle Database), and type the following in the command line:
 
@@ -21,7 +23,9 @@ Start Listener
 sqlplus "/ AS SYSDBA"
 ```
 
-
+Images
+----
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
 Stop Listener

@@ -36,10 +36,13 @@ vi .bash_profile
 ```
 
 ```ruby
-# .bash_profile# Get the aliases and functions
+# .bash_profile
+# Get the aliases and functions
+
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
+
 # User specific environment and startup programs
 
 export ORACLE_BASE=/u01/app/oracle

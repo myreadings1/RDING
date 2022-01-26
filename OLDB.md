@@ -149,8 +149,6 @@ shutdown normal;
 shutdown abort;
 ```
 
-
-
 Network Connections
 ----
 - Listener

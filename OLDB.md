@@ -25,7 +25,7 @@ sqlplus "/ AS SYSDBA"
 
 Images
 ----
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
 
 
 Stop Listener

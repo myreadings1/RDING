@@ -59,6 +59,16 @@ export PATH
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/bash_config.png )
 
+- Open a new terminal and type the following command:
+
+```ruby
+. .bash_profile
+```
+
+- The terminal should look like as follow:
+
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/bash_config_done.png )
+
 
 Start Listener
 ---

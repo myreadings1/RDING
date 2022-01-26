@@ -27,8 +27,29 @@ chmod -R 775 /u01
 ```
 
 
+2- Bash configuration
 
 
+
+vi .bash_profile
+
+```ruby
+# .bash_profile# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+# User specific environment and startup programs
+export ORACLE_BASE=/u01/app/oracle
+export ORACLE_HOME=/u01/app/oracle/product/19.3/db_home
+export ORACLE_SID=CDBexport LD_LIBRARY_PATH=\$ORACLE_HOME/lib:/lib:/usr/lib
+export CLASSPATH=\$ORACLE_HOME/jlib:\$ORACLE_HOME/rdbms/jlib
+export NLS_LANG=american_america.al32utf8
+export NLS_DATE_FORMAT="yyyy-mm-dd:hh24:mi:ss"PATH=$PATH:$HOME/.local/bin:$ORACLE_HOME/bin
+
+export PATH
+
+
+```
 
 
 Start Listener

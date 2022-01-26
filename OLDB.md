@@ -1,9 +1,10 @@
-OL8.5 Installation
+OL8.5 Operating System Installation
 -----
 
 
-ODB Installation Steps
+Oracle Database 19c Installation Steps
 ----
+
 Prerequisites and dependencies
 ----
 

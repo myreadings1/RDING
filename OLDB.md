@@ -1,4 +1,4 @@
-OL8.5 Operating System Installation
+Oracle Linux 8.5 Operating System Installation
 -----
 
 
@@ -28,7 +28,7 @@ sqlplus "/ AS SYSDBA"
 
 Images
 ----
-![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
+![Tis is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
 
 
 Stop Listener

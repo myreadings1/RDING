@@ -12,9 +12,8 @@ yum install -y oracle-database-preinstall-19c
 '''
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+yum install -y oracle-database-preinstall-19c
+
 ```
 
 

@@ -187,5 +187,8 @@ Network Connections
 
 ```ruby
 cd $ORACLE_HOME/bin
+./tnsping pdb1
 ```
+
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/chk_tnsping.png )
 

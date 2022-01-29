@@ -141,7 +141,15 @@ Images
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/ODB_folder.png )
 
 
-Stop Listener
+The Listener
+---
+
+
+```ruby
+lsnrctl stop
+lsnrctl start
+lsnrctl status
+```
 
 Start Oracle Database
 ----

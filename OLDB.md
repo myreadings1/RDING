@@ -5,6 +5,17 @@ Oracle Linux 8.5 Operating System Installation
 Oracle Database 19c Installation Steps
 ----
 
+
+```ruby
+cd $ORACLE_HOME
+unzip -qo /home/oracle/Downloads/LINUX.X64_193000_db_home.zip
+```
+
+
+```ruby
+cd $ORACLE_HOME
+```
+
 ```ruby
 #For GUI installation
 ./runInstaller
@@ -121,7 +132,6 @@ ALTER SESSION SET container=ORCLPDB;
 Images
 ----
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/dependencies_install.png )
-
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/ODB_Folder_Creation.png )
 

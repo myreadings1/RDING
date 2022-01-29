@@ -240,6 +240,9 @@ sqlplus "/ AS SYSDBA"
 SELECT name, con_id, open_mode FROM v$pdbs;
 ```
 
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/find_DB_name.png )
+
+
 2- Create and update tnsnames.ora file
 
 ```ruby
@@ -312,7 +315,6 @@ ADR_BASE_LISTENER = /u01/app/oracle
 ```
 
 
-![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/find_DB_name.png )
 
 
 

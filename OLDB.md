@@ -225,13 +225,12 @@ The SQL query result should look as follow:
 
 Starting the database after a computer reboot
 ---
-1- Turn on the listener
-
+1- First, start the listener with the command below
 
 ```ruby
 lsnrctl start
 ```
-
+2- Run the following commands to startup the database.
 
 ```ruby
 sqlplus "/ AS SYSDBA"

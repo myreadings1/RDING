@@ -222,7 +222,8 @@ The SQL query result should look as follow:
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/hr_db_query_response.png )
 
-Restarting the DB
+
+Starting the database after a computer reboot
 ---
 
 ```ruby

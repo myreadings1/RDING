@@ -211,3 +211,10 @@ Finalize the HR dataset connection
 ```ruby
 $ORACLE_HOME/demo/schema/log/
 ```
+
+- Now we can send quieries to the HR database
+
+
+```ruby
+SELECT table_name FROM user_tables;
+```

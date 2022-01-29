@@ -192,3 +192,22 @@ cd $ORACLE_HOME/bin
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/chk_tnsping.png )
 
+Finalize the HR dataset connection
+---
+- On termial, run the following command
+
+```ruby
+@?/demo/schema/human_resources/hr_main.sql 
+```
+
+- Follow the prompts on the screen. Use the criteria below to guide you.
+ -- Enter hr here. This is for the user HR. This is what we will use to access the database.
+ -- Enter an appropriate tablespace, for example, users as the default tablespace for HR.
+ -- Enter temp as the temporary tablespace for HR
+ -- Enter the directory path for your log directory, for example:
+
+
+
+```ruby
+$ORACLE_HOME/demo/schema/log/
+```

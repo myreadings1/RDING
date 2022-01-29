@@ -218,4 +218,6 @@ $ORACLE_HOME/demo/schema/log/
 ```ruby
 SELECT table_name FROM user_tables;
 ```
+The SQL query result should look as follow:
+
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/hr_db_query_response.png )

@@ -151,6 +151,16 @@ lsnrctl start
 lsnrctl status
 ```
 
+6. Unlock HR schema
+
+Finally, we can unlock the HR schema with the command below.
+
+
+```ruby
+ALTER USER HR IDENTIFIED BY HR ACCOUNT UNLOCK;
+```
+
+
 Start Oracle Database
 ----
 - Open a new terminal and type the following command:

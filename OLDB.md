@@ -223,6 +223,26 @@ The SQL query result should look as follow:
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/hr_db_query_response.png )
 
 
+Accessing a sample dataset
+---
+1- Log-in to SQL Plus as a SYS user
+
+
+
+```ruby
+sqlplus "/ AS SYSDBA"
+```
+
+2- Find PDB name: Execute the following command in SQL
+
+```ruby
+SELECT name, con_id, open_mode FROM v$pdbs;
+```
+
+![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/find_DB_name.png )
+
+
+
 Starting the database after a computer reboot
 ---
 1- First, start the listener with the command below

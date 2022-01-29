@@ -307,6 +307,9 @@ ADR_BASE_LISTENER = /u01/app/oracle
 
 ```
 
+```ruby
+:wq
+```
 
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/find_DB_name.png )

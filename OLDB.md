@@ -92,7 +92,7 @@ export PATH
 
 Start Listener
 ---
-
+ 
 Start Oracle Database
 ---
 1- Open Linux teminal to Login to SQLPlus database (i.e. the Oracle Database), and type the following in the command line:

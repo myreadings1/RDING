@@ -192,6 +192,7 @@ cd $ORACLE_HOME/bin
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/chk_tnsping.png )
 
+
 Finalize the HR dataset connection
 ---
 - On termial, run the following command
@@ -225,7 +226,7 @@ The SQL query result should look as follow:
 
 Accessing a sample dataset
 ---
-1- Log-in to SQL Plus as a SYS user
+- Log-in to SQL Plus as a SYS user
 
 
 
@@ -233,10 +234,41 @@ Accessing a sample dataset
 sqlplus "/ AS SYSDBA"
 ```
 
-2- Find PDB name: Execute the following command in SQL
+1- Find PDB name: Execute the following command in SQL
 
 ```ruby
 SELECT name, con_id, open_mode FROM v$pdbs;
+```
+
+2- Create and update tnsnames.ora file
+
+```ruby
+cd $ORACLE_HOME/network/admin
+sudo vi tnsnames.ora
+```
+
+
+```ruby
+LISTENER_CDB =
+  (ADDRESS = (PROTOCOL = TCP)(HOST = LOCALHOST)(PORT = 1521))
+
+CDB =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = LOCALHOST)(PORT = 1521))
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = CDB)
+    )
+  )
+
+PDB1 = 
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = LOCALHOST)(PORT = 1521))
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = PDB1)
+    )
+ )
 ```
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/find_DB_name.png )

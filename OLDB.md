@@ -182,3 +182,10 @@ Network Connections
 ----
 - Listener
 - tnsnames
+
+7. Checking the tnsnames.ora configuration
+
+```ruby
+cd $ORACLE_HOME/bin
+```
+

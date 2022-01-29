@@ -270,6 +270,12 @@ PDB1 =
     )
  )
 ```
+To save changes, use the following commands:
+
+```ruby
+:wq
+```
+
 
 ![This is an image]( https://github.com/myreadings1/RDING/blob/master/OLDB/imgs/find_DB_name.png )
 

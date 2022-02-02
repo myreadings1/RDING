@@ -1,5 +1,7 @@
 Common Problems
 ---
+- Disable Label Security See (https://docs.oracle.com/en/database/oracle/oracle-database/19/olsag/disabling-and-enabling-oracle-label-security.html#GUID-9F4CAC68-F17E-471B-8A92-905249611743)
+-
 - TDE Config See (https://oracledbwr.com/configuring-transparent-data-encryption-in-oracle-19c-database/)
 
 - Remove OLAP See (https://doyensys.com/blogs/how-to-remove-the-oracle-olap-option-from-a-12c-database-during-19c-upgrade/)

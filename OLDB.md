@@ -1,3 +1,18 @@
+Common Problems
+---
+- Check installed components with DB
+See (https://community.oracle.com/tech/developers/discussion/660430/checking-the-installed-components-in-oracle-home)
+
+Use this query to check for components and their status.
+
+```ruby
+select comp_name,status,version from dba_registry;
+```
+
+
+
+
+
 Oracle Linux 8.5 Operating System Installation
 -----
 - Coming soon ...

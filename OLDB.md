@@ -1,5 +1,7 @@
 Common Problems
 ---
+- TDE Config See (https://oracledbwr.com/configuring-transparent-data-encryption-in-oracle-19c-database/)
+
 - Remove OLAP See (https://doyensys.com/blogs/how-to-remove-the-oracle-olap-option-from-a-12c-database-during-19c-upgrade/)
 
 - Check installed components with DB

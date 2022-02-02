@@ -1,5 +1,7 @@
 Common Problems
 ---
+- Remove OLAP See (https://doyensys.com/blogs/how-to-remove-the-oracle-olap-option-from-a-12c-database-during-19c-upgrade/)
+
 - Check installed components with DB
 See (https://community.oracle.com/tech/developers/discussion/660430/checking-the-installed-components-in-oracle-home)
 

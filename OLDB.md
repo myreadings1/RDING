@@ -1,5 +1,9 @@
 Common Problems
 ---
+- Check if installed database is CDB or non CDB, use select CDB from v$database;
+- Yes for CDB, no for CDB;
+- See (https://dbtut.com/index.php/2019/09/26/query-whether-the-oracle-database-is-cdb-or-non-cdb/)
+
 - Disable Label Security See (https://docs.oracle.com/en/database/oracle/oracle-database/19/olsag/disabling-and-enabling-oracle-label-security.html#GUID-9F4CAC68-F17E-471B-8A92-905249611743)
 -
 - TDE Config See (https://oracledbwr.com/configuring-transparent-data-encryption-in-oracle-19c-database/)

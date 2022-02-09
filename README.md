@@ -543,6 +543,8 @@ Oracle Free Services
 Oracle Configure TDE 
 ---
 - See (https://orakldba.com/transparent-data-encryption-in-oracle/)
+
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

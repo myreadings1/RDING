@@ -540,7 +540,9 @@ Oracle Free Services
 - See (https://www.youtube.com/watch?v=yWVD6qmQrb8)
 
 
-
+Oracle Configure TDE 
+---
+- See (https://orakldba.com/transparent-data-encryption-in-oracle/)
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

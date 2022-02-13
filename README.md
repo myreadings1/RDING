@@ -545,6 +545,10 @@ Oracle Configure TDE
 - See (https://orakldba.com/transparent-data-encryption-in-oracle/)
 
 
+Enable SSH Oracle Linux 8
+---
+- See (https://docs.oracle.com/cd/E37670_01/E41138/html/ch25s03.html)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

@@ -549,6 +549,12 @@ Enable SSH Oracle Linux 8
 ---
 - See (https://docs.oracle.com/cd/E37670_01/E41138/html/ch25s03.html)
 
+
+Shared Folder
+---
+- See (https://ubuntuhandbook.org/index.php/2019/06/virtualbox-share-a-folder-in-ubuntu-host-to-windows-guest/)
+- See (https://github.com/myreadings1/RDING/blob/master/OLDB/Virtualbox%20Share%20A%20Folder%20in%20Ubuntu%20Host%20to%20Windows%20Guest%20%7C%20UbuntuHandbook.pdf)
+
 شعر امير المؤمنين
 --
 - http://www.elibrary4arab.com/viewtopic.php?f=6&t=420

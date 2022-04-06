@@ -569,3 +569,9 @@ Flutter path
 - Multi-standard receiver, like BT, Wi, Zig, GSM ... This radio is based on RF-Funn
 - https://medium.com/geekculture/oracle-database-19c-installation-on-linux-e184dde4ce03
 - 
+
+Enable Networking Centos 8
+---
+- See (https://linuxstoney.com/how-to-setup-network-after-rocky-linux-8-centos-8-minimal-installation/)
+- use nmcli d
+- use nmtui and enable automatic connection to the network

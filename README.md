@@ -575,3 +575,4 @@ Enable Networking Centos 8
 - See (https://linuxstoney.com/how-to-setup-network-after-rocky-linux-8-centos-8-minimal-installation/)
 - use nmcli d
 - use nmtui and enable automatic connection to the network
+- Change passwd Oracle (https://www.cyberciti.biz/faq/linux-set-change-password-how-to/)

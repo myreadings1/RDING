@@ -576,3 +576,14 @@ Enable Networking Centos 8
 - use nmcli d
 - use nmtui and enable automatic connection to the network
 - Change passwd Oracle (https://www.cyberciti.biz/faq/linux-set-change-password-how-to/)
+
+Flash Back problem
+---
+- SQL> alter system set db_recovery_file_dest_size=10000M;
+
+- System altered.
+
+- SQL> alter database flashback on;
+
+- Database altered.
+- See (https://alphaoragroup.com/2020/12/18/ora-38708-not-enough-space-for-first-flashback-database-log-file/)

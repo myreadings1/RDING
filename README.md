@@ -587,3 +587,8 @@ Flash Back problem
 
 - Database altered.
 - See (https://alphaoragroup.com/2020/12/18/ora-38708-not-enough-space-for-first-flashback-database-log-file/)
+
+
+Thread vs Parallezim Golang
+----
+- See (https://medium.com/rungo/achieving-concurrency-in-go-3f84cbf870ca)

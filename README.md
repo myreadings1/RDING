@@ -592,3 +592,4 @@ Flash Back problem
 Thread vs Parallezim Golang
 ----
 - See (https://medium.com/rungo/achieving-concurrency-in-go-3f84cbf870ca)
+- See (https://medium.com/wesionary-team/understanding-go-routine-and-channel-b09d7d60e575)

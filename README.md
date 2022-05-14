@@ -594,3 +594,6 @@ Thread vs Parallezim Golang
 - See (https://medium.com/rungo/achieving-concurrency-in-go-3f84cbf870ca)
 - See (https://medium.com/wesionary-team/understanding-go-routine-and-channel-b09d7d60e575)
 - See (https://medium.com/a-journey-with-go/go-goroutine-os-thread-and-cpu-management-2f5a5eaf518a)
+- See (https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html)
+- See (https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part3.html)
+- See (https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html)

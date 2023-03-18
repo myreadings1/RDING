@@ -1,0 +1,15 @@
+Virtualbox Shared Folder
+---
+```
+sudo mount /dev/sr0 /cdrom
+mount: /cdrom: WARNING: device write-protected, mounted read-only. # This is OK
+
+cd /cdrom 
+sudo bash ./VBoxLinuxAdditions.run
+sudo adduser $USER vboxsf
+```
+### References:
+- See (https://askubuntu.com/questions/1347212/accessing-shared-folder-on-virtualbox-6-1-windows-10-host-ubuntu-20-04-serve)
+- See (https://askubuntu.com/questions/890729/this-location-could-not-be-displayed-you-do-not-have-the-permissions-necessary)
+- See (https://ubuntuhandbook.org/index.php/2019/06/virtualbox-share-a-folder-in-ubuntu-host-to-windows-guest/)
+- See (https://github.com/myreadings1/RDING/blob/master/OLDB/Virtualbox%20Share%20A%20Folder%20in%20Ubuntu%20Host%20to%20Windows%20Guest%20%7C%20UbuntuHandbook.pdf)
